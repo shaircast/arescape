@@ -60,6 +60,16 @@ namespace GoogleARCore.Examples.HelloAR
         /// </summary>
         public GameObject SearchingForPlaneUI;
 
+
+        /* 비석 */
+        public GameObject RosettaStone;
+
+        /* 가이거 계수기 */
+        public GameObject GeigerCount;
+
+        /* 인더스 문자 */
+        public GameObject AncientScript;
+
         /// <summary>
         /// The rotation in degrees need to apply to model when the Andy model is placed.
         /// </summary>
@@ -103,6 +113,9 @@ namespace GoogleARCore.Examples.HelloAR
         
         private Vector3 screenCenterCoord;
         private Vector3 handholdRelativeCoord;
+        
+        public AudioClip GeigerSound;
+        AudioSource audio;
 
         void Start()
         {
@@ -117,6 +130,7 @@ namespace GoogleARCore.Examples.HelloAR
         /// <summary>
         /// The Unity Update() method.
         /// </summary>
+
         public void Update()
         {
             _UpdateApplicationLifecycle();
@@ -236,41 +250,29 @@ namespace GoogleARCore.Examples.HelloAR
             }
             else if (state == 4)
             {
-                
+                if (AncientScript.transform.position - GeigerCount.transform.position < 0.1) {
+                    if(IsCorrectAncientScript(AncientScript)) {
+                        ActivateAncientScript();
+                    }
+                }
             }
             else if (state == 5)
             {
                 
             }
-            
-            
-
-            // Raycast against the location the player touched to search for planes.
-//            TrackableHit hit;
-//            TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
-//                TrackableHitFlags.FeaturePointWithSurfaceNormal;
-//
-//            if (Frame.Raycast(touch.position.x, touch.position.y, raycastFilter, out hit))
-//            {
-//                
-//                // Choose the Andy model for the Trackable that got hit.
-//                GameObject prefab = AndyPlanePrefab;
-//              
-//
-//                // Instantiate Andy model at the hit pose.
-//                var andyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
-//
-//                // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
-//                andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
-//
-//                // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
-//                // world evolves.
-//                var anchor = hit.Trackable.CreateAnchor(hit.Pose);
-//
-//                // Make Andy model a child of the anchor.
-//                andyObject.transform.parent = anchor.transform;
-//                
-//            }
+        }
+        
+        void IsCorrectAncientScript(GameObject AncientScript) {
+            return AncientScript.isAnswer;
+        }
+        
+        
+        void ActivateAncientScript() {
+            audio = GetComponent<AudioSource>();
+            // Geiger Sound Effect 
+            audio.PlayOneShot(GeigerSound);
+            // Make Ancient Script Shining
+            GetComponent(Halo).enabled = true;
         }
 
         /// <summary>
