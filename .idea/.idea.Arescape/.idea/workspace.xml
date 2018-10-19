@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f18f2f12-dca3-4e14-ac65-f2d80f5696d5" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/contentModel.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/indexLayout.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Arescape/riderModule.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/CLI.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/CLI/augmented_image_cli_linux" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/CLI/augmented_image_cli_linux.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/CLI/augmented_image_cli_osx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/CLI/augmented_image_cli_osx.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/CLI/augmented_image_cli_win.exe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/CLI/augmented_image_cli_win.exe.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Configurations.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Configurations/DefaultSessionConfig.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Configurations/DefaultSessionConfig.asset.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Editor.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Editor/ARCoreiOSDependencies.template" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Editor/ARCoreiOSDependencies.template.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Configurations.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Configurations/AugmentedImagesSessionConfig.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Configurations/AugmentedImagesSessionConfig.asset.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/000.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/000.jpg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/001.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/001.jpg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/002.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/002.jpg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/003.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/003.jpg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/004.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/004.jpg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/005.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/005.jpg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/006.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/006.jpg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/007.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/007.jpg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/008.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/008.jpg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/009.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/009.jpg.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/Example Database.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Images/Example Database.asset.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/Frame Material.mat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/Frame Material.mat.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameLowerLeft.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameLowerLeft.obj.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameLowerRight.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameLowerRight.obj.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameUpperLeft.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameUpperLeft.obj.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameUpperRight.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Materials/Frame/FrameUpperRight.obj.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Prefabs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Prefabs/AugmentedImageVisualizer.prefab.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Scenes.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Scenes/AugmentedImage.unity" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Scenes/AugmentedImage.unity.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Scripts.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Scripts/AugmentedImageExampleController.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Scripts/AugmentedImageExampleController.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Scripts/AugmentedImageVisualizer.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Scripts/AugmentedImageVisualizer.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Textures.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Textures/fit_to_scan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Textures/fit_to_scan.png.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Textures/frame_base.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/AugmentedImage/Textures/frame_base.png.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Configurations.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Configurations/CloudAnchorSessionConfig.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Configurations/CloudAnchorSessionConfig.asset.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scenes.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scenes/CloudAnchors.unity" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scenes/CloudAnchors.unity.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/ARKitHelper.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/ARKitHelper.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/AnchorIdFromRoomRequestMessage.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/AnchorIdFromRoomRequestMessage.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/AnchorIdFromRoomResponseMessage.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/AnchorIdFromRoomResponseMessage.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/CloudAnchorController.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/CloudAnchorController.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/CloudAnchorUIController.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/CloudAnchorUIController.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/RoomSharingClient.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/RoomSharingClient.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/RoomSharingMsgType.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/RoomSharingMsgType.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/RoomSharingServer.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/CloudAnchors/Scripts/RoomSharingServer.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/Andy.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/Andy.obj.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyBlobShadow.obj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyBlobShadow.obj.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyBlobShadow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyBlobShadow.png.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyDiffuseMaterial.mat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyDiffuseMaterial.mat.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyMaterialBlue.mat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyMaterialBlue.mat.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyMaterialGreen.mat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyMaterialGreen.mat.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyShadowMaterial.mat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/AndyShadowMaterial.mat.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/Andy_DiffuseLitBlue.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/Andy_DiffuseLitBlue.png.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/Andy_DiffuseLitGreen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Andy/Andy_DiffuseLitGreen.png.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/PlaneGrid.mat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/PlaneGrid.mat.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/PointCloud.mat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/PointCloud.mat.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders/MobileDiffuseWithLightEstimation.shader" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders/MobileDiffuseWithLightEstimation.shader.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders/MobileSpecularWithLightEstimation.shader" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders/MobileSpecularWithLightEstimation.shader.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders/PlaneGrid.shader" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders/PlaneGrid.shader.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders/PointCloud.shader" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Shaders/PointCloud.shader.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures/AugmentedImageIcon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures/AugmentedImageIcon.png.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures/CloudAnchorIcon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures/CloudAnchorIcon.png.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures/ComputerVisionIcon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures/ComputerVisionIcon.png.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures/HelloARIcon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures/HelloARIcon.png.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures/TriGrid.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Materials/Textures/TriGrid.png.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Prefabs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Prefabs/AndyBlue.prefab" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Prefabs/AndyBlue.prefab.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Prefabs/AndyGreen.prefab" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Prefabs/AndyGreen.prefab.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Prefabs/AndyGreenDiffuse.prefab" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Prefabs/AndyGreenDiffuse.prefab.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Prefabs/DetectedPlaneVisualizer.prefab" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Prefabs/DetectedPlaneVisualizer.prefab.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Roboto-Regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Roboto-Regular.ttf.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneGenerator.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneGenerator.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneVisualizer.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneVisualizer.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/PointcloudVisualizer.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/PointcloudVisualizer.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/ComputerVision.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/ComputerVision/Materials.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/ComputerVision/Scripts.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scenes.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Prefabs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Prefabs/ARCore Device.prefab" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Prefabs/ARCore Device.prefab.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Prefabs/Environmental Light.prefab" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Prefabs/Environmental Light.prefab.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/BuildResources.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/BuildResources/cloud_anchor_manifest.aartemplate" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/BuildResources/cloud_anchor_manifest.aartemplate.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_shared.dll" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_shared.dll.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_unity_plugin.bundle.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_unity_plugin.bundle/Contents.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_unity_plugin.bundle/Contents/MacOS.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_unity_plugin.bundle/Contents/MacOS/arcore_instant_preview_unity_plugin" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_unity_plugin.bundle/Contents/MacOS/arcore_instant_preview_unity_plugin.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_unity_plugin.bundle/Contents/MacOS/libarcore_instant_preview_shared.dylib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_unity_plugin.bundle/Contents/MacOS/libarcore_instant_preview_shared.dylib.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_unity_plugin.dll" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Plugins/x86_64/arcore_instant_preview_unity_plugin.dll.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreview.apk" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreview.apk.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewInput.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewInput.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewManager.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewManager.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewTrackedPoseDriver.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewTrackedPoseDriver.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Materials.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Materials/ARBackground.mat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Materials/ARBackground.mat.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Materials/ARBackground.shader" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Materials/ARBackground.shader.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/arcore_arkit_integration.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/arcore_arkit_integration.mm.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/arcore_client.aar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/arcore_client.aar.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/arcore_unity.aar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/arcore_unity.aar.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/google_ar_optional.aar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/google_ar_optional.aar.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/google_ar_required.aar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/google_ar_required.aar.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/unityandroidpermissions.aar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/unityandroidpermissions.aar.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/unitygar.aar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/unitygar.aar.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ARCoreBackgroundRenderer.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ARCoreBackgroundRenderer.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ARCoreSession.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ARCoreSession.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ARCoreSessionConfig.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ARCoreSessionConfig.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Anchor.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Anchor.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AndroidPermissionsManager.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AndroidPermissionsManager.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AndroidPermissionsRequestResult.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AndroidPermissionsRequestResult.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/AnchorApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/AnchorApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiApkInstallStatusExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiApkInstallStatusExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiApkInstallationStatus.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiApkInstallationStatus.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiArStatus.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiArStatus.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiArStatusExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiArStatusExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiAvailability.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiAvailability.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiAvailabilityExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiAvailabilityExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiCameraFocusMode.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiCameraFocusMode.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiCameraMetadata.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiCameraMetadata.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiCloudAnchorMode.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiCloudAnchorMode.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiCloudAnchorState.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiCloudAnchorState.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiCloudAnchorStateExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiCloudAnchorStateExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiConstants.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiConstants.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiDisplayUvCoords.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiDisplayUvCoords.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiDisplayUvCoordsExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiDisplayUvCoordsExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiFeaturePointOrientationMode.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiFeaturePointOrientationMode.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiFeaturePointOrientationModeExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiFeaturePointOrientationModeExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiLightEstimateState.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiLightEstimateState.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiLightEstimateStateExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiLightEstimateStateExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiLightEstimationMode.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiLightEstimationMode.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPlaneFindingMode.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPlaneFindingMode.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPlaneType.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPlaneType.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPlaneTypeExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPlaneTypeExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPoseData.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPoseData.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPrestoConfig.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPrestoConfig.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatus.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatus.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatusExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiPrestoStatusExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackableType.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackableType.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackingState.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackingState.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackingStateExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackingStateExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackingStateXPExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackingStateXPExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiUpdateMode.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiUpdateMode.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/AugmentedImageApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/AugmentedImageApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/AugmentedImageDatabaseApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/AugmentedImageDatabaseApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/CameraApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/CameraApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/CameraConfigApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/CameraConfigApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/CameraConfigListApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/CameraConfigListApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/CameraMetadataApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/CameraMetadataApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/FrameApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/FrameApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/HitTestApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/HitTestApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ImageApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ImageApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/LightEstimateApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/LightEstimateApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/NativeSession.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/NativeSession.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/PlaneApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/PlaneApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/PointApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/PointApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/PointCloudApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/PointCloudApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/PoseApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/PoseApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/SessionApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/SessionApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/SessionConfigApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/SessionConfigApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/TrackableApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/TrackableApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/TrackableListApi.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/TrackableListApi.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ApkAvailabilityStatus.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ApkAvailabilityStatus.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ApkInstallationStatus.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ApkInstallationStatus.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Async.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Async/WaitForTaskCompletionYieldInstruction.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Async/WaitForTaskCompletionYieldInstruction.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AsyncTask.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AsyncTask.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AugmentedImage.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AugmentedImage.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AugmentedImageDatabase.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AugmentedImageDatabase.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AugmentedImageDatabaseEntry.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/AugmentedImageDatabaseEntry.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraConfig.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraConfig.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraFocusMode.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraFocusMode.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraImageBytes.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraImageBytes.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraIntrinsics.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraIntrinsics.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraMetadataTag.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraMetadataTag.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraMetadataValue.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CameraMetadataValue.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CloudAnchorResult.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CloudAnchorResult.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CloudServiceResponse.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/CloudServiceResponse.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Deprecated.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Deprecated/TrackedPlane.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Deprecated/TrackedPlane.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Deprecated/TrackedPoint.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Deprecated/TrackedPoint.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Deprecated/TrackedPointOrientationMode.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Deprecated/TrackedPointOrientationMode.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/DetectedPlane.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/DetectedPlane.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/DetectedPlaneFindingMode.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/DetectedPlaneFindingMode.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/DetectedPlaneType.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/DetectedPlaneType.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/DisplayUvCoords.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/DisplayUvCoords.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ARCoreIOSSupportHelper.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ARCoreIOSSupportHelper.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ARCoreIOSSupportPreprocessBuild.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ARCoreIOSSupportPreprocessBuild.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ARCoreProjectSettingsWindow.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ARCoreProjectSettingsWindow.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ARCoreSupportedPreprocessBuild.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ARCoreSupportedPreprocessBuild.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/AssetHelper.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/AssetHelper.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/AugmentedImageDatabaseContextMenu.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/AugmentedImageDatabaseContextMenu.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/AugmentedImageDatabaseInspector.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/AugmentedImageDatabaseInspector.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/AugmentedImageDatabasePreprocessBuild.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/AugmentedImageDatabasePreprocessBuild.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/BackgroundJobExecutor.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/BackgroundJobExecutor.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/CloudAnchorPreprocessBuild.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/CloudAnchorPreprocessBuild.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ExampleBuildHelper.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ExampleBuildHelper.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ExamplePreprocessBuild.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/ExamplePreprocessBuild.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/PreprocessBuildBase.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/PreprocessBuildBase.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/RequiredOptionalPreprocessBuild.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/RequiredOptionalPreprocessBuild.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/EnvironmentalLight.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/EnvironmentalLight.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ExperimentSupport.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ExperimentSupport/ExperimentBase.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ExperimentSupport/ExperimentBase.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ExperimentSupport/ExperimentManager.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/ExperimentSupport/ExperimentManager.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/FeaturePoint.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/FeaturePoint.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/FeaturePointOrientationMode.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/FeaturePointOrientationMode.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Frame.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Frame.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/LightEstimate.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/LightEstimate.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/LightEstimateState.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/LightEstimateState.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/ARCoreAndroidLifecycleManager.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/ARCoreAndroidLifecycleManager.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/ARCoreIOSLifecycleManager.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/ARCoreIOSLifecycleManager.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/ARPrestoCallbackManager.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/ARPrestoCallbackManager.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/CloudServiceManager.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/CloudServiceManager.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/ILifecycleManager.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/ILifecycleManager.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/LifecycleManager.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/LifecycleManager.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/TrackableManager.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Managers/TrackableManager.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/PointCloudPoint.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/PointCloudPoint.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Session.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Session.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/SessionStatus.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/SessionStatus.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/SessionStatusExtensions.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/SessionStatusExtensions.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Trackable.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Trackable.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/TrackableHit.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/TrackableHit.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/TrackableHitFlags.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/TrackableHitFlags.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/TrackableQueryFilter.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/TrackableQueryFilter.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/TrackingState.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/TrackingState.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/ARCoreProjectSettings.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/ARCoreProjectSettings.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/ARDebug.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/ARDebug.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/ConversionHelper.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/ConversionHelper.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/DllImportNoop.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/DllImportNoop.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/IntPtrEqualityComparer.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/IntPtrEqualityComparer.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/MarshalingHelper.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/MarshalingHelper.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/ShellHelper.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/ShellHelper.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/SuppressMemoryAllocationErrorAttribute.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Utility/SuppressMemoryAllocationErrorAttribute.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/XPAnchor.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/XPAnchor.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/XPSession.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/XPSession.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/XPSessionStatus.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/XPSessionStatus.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/XPTrackingState.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/XPTrackingState.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.88.0.dll" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.88.0.dll.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.88.0.dll" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.88.0.dll.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.88.0.dll" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.88.0.dll.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.88.0.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/PlayServicesResolver/Editor/play-services-resolver_v1.2.88.0.txt.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Packages/manifest.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="HelloARController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+              <folding>
+                <marker date="1539868812623" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+                <marker date="1539868812623" expanded="true" signature="875:7763" ph="{...}" />
+                <marker date="1539868812623" expanded="false" signature="888:1140" ph="..." />
+                <marker date="1539868812623" expanded="true" signature="1153:1223" ph="/// Controls the HelloAR example. ... " />
+                <marker date="1539868812623" expanded="true" signature="1274:7761" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="1289:1433" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+                <marker date="1539868812623" expanded="true" signature="1484:1758" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+                <marker date="1539868812623" expanded="true" signature="1811:1937" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+                <marker date="1539868812623" expanded="true" signature="1994:2120" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+                <marker date="1539868812623" expanded="true" signature="2184:2386" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+                <marker date="1539868812623" expanded="true" signature="2473:2619" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+                <marker date="1539868812623" expanded="true" signature="2672:2747" ph="/// The Unity Update() method. ... " />
+                <marker date="1539868812623" expanded="true" signature="2776:4831" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="3063:3275" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="3153:3261" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="3544:3596" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="3954:4821" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="4476:4600" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+                <marker date="1539868812623" expanded="true" signature="4841:4933" ph="/// Check and update the application lifecycle. ... " />
+                <marker date="1539868812623" expanded="true" signature="4984:6207" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="5103:5167" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="5291:5440" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="5457:5548" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="5579:5631" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="5809:5975" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="6022:6197" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="6217:6296" ph="/// Actually quit the application. ... " />
+                <marker date="1539868812623" expanded="true" signature="6327:6379" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="6389:6547" ph="/// Show an Android toast message. ... " />
+                <marker date="1539868812623" expanded="true" signature="6609:7319" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="6865:7309" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="7053:7292" ph="{...}" />
+                <marker date="1539868812623" expanded="true" signature="7343:7737" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DetectedPlaneVisualizer.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneVisualizer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1537824464000" expanded="true" signature="0:840" ph="/* ----------------------------------------------------------------------- ... */" />
+                <marker date="1537824464000" expanded="true" signature="880:8160" ph="{...}" />
+                <marker date="1537824464000" expanded="false" signature="893:967" ph="..." />
+                <marker date="1537824464000" expanded="true" signature="973:1067" ph="/// Visualizes a single DetectedPlane in the Unity scene. ... " />
+                <marker date="1537824464000" expanded="true" signature="1124:8158" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="1246:1943" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="2486:2560" ph="/// The Unity Awake() method. ... " />
+                <marker date="1537824464000" expanded="true" signature="2588:2733" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="2743:2818" ph="/// The Unity Update() method. ... " />
+                <marker date="1537824464000" expanded="true" signature="2847:3366" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="2898:2950" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="3007:3096" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="3174:3276" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="3376:3550" ph="/// Initializes the DetectedPlaneVisualizer with a DetectedPlane. ... " />
+                <marker date="1537824464000" expanded="true" signature="3602:3885" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="3895:4007" ph="/// Update mesh with a list of Vector3 and plane's center position. ... " />
+                <marker date="1537824464000" expanded="true" signature="4050:7695" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="4210:4262" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="4679:5309" ph="/* The following code converts a polygon to a mesh with two polygons, inner ... */" />
+                <marker date="1537824464000" expanded="true" signature="5458:5533" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="5843:6232" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="6479:6682" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="6696:6817" ph="/* Generate triangle (0, 1, 4), (4, 1, 5), (5, 1, 2), (5, 2, 6), (6, 2, 3), (6, 3, 7) ... */" />
+                <marker date="1537824464000" expanded="true" signature="6873:7481" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="7791:8152" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="7854:7912" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="7967:8116" ph="{...}" />
+                <marker date="1537824464000" expanded="true" signature="8032:8102" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Outline.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/Outline.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="78" lean-forward="false" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+              <folding>
+                <marker date="1502623798000" expanded="true" signature="0:1236" ph="/* Copyright (c) 2015 José Guerreiro. All rights reserved. ... */" />
+                <marker date="1502623798000" expanded="false" signature="1244:1309" ph="..." />
+                <marker date="1502623798000" expanded="true" signature="1438:2424" ph="{...}" />
+                <marker date="1502623798000" expanded="true" signature="1723:1792" ph="{...}" />
+                <marker date="1502623798000" expanded="true" signature="1817:2103" ph="{...}" />
+                <marker date="1502623798000" expanded="true" signature="2024:2093" ph="{...}" />
+                <marker date="1502623798000" expanded="true" signature="2129:2418" ph="{...}" />
+                <marker date="1502623798000" expanded="true" signature="2336:2408" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>detectedplaneprefab</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ARProjects/AR Bigroom/Assets/Scripts/GameManager.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OutlineEffect/Outline.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="1524" />
+    <option name="height" value="1952" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Arescape (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f18f2f12-dca3-4e14-ac65-f2d80f5696d5" name="Default" comment="" />
+      <created>1539840862474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539840862474</updated>
+      <workItem from="1539840866224" duration="603000" />
+      <workItem from="1539858338414" duration="1460000" />
+      <workItem from="1539862172418" duration="4424000" />
+      <workItem from="1539945921329" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7084000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-13" y="-13" width="3026" height="1966" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.094333336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5973">
+          <caret line="188" column="34" lean-forward="true" selection-start-line="188" selection-start-column="34" selection-end-line="188" selection-end-column="34" />
+          <folding>
+            <marker date="1539868812623" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1539868812623" expanded="true" signature="875:7763" ph="{...}" />
+            <marker date="1539868812623" expanded="false" signature="888:1140" ph="..." />
+            <marker date="1539868812623" expanded="true" signature="1153:1223" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1539868812623" expanded="true" signature="1274:7761" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="1289:1433" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1539868812623" expanded="true" signature="1484:1758" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1539868812623" expanded="true" signature="1811:1937" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1539868812623" expanded="true" signature="1994:2120" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1539868812623" expanded="true" signature="2184:2386" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1539868812623" expanded="true" signature="2473:2619" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1539868812623" expanded="true" signature="2672:2747" ph="/// The Unity Update() method. ... " />
+            <marker date="1539868812623" expanded="true" signature="2776:4831" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3063:3275" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3153:3261" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3544:3596" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3954:4821" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="4476:4600" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1539868812623" expanded="true" signature="4841:4933" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1539868812623" expanded="true" signature="4984:6207" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5103:5167" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5291:5440" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5457:5548" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5579:5631" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5809:5975" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6022:6197" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6217:6296" ph="/// Actually quit the application. ... " />
+            <marker date="1539868812623" expanded="true" signature="6327:6379" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6389:6547" ph="/// Show an Android toast message. ... " />
+            <marker date="1539868812623" expanded="true" signature="6609:7319" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6865:7309" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="7053:7292" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="7343:7737" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneVisualizer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537824464000" expanded="true" signature="0:840" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1537824464000" expanded="true" signature="880:8160" ph="{...}" />
+            <marker date="1537824464000" expanded="false" signature="893:967" ph="..." />
+            <marker date="1537824464000" expanded="true" signature="973:1067" ph="/// Visualizes a single DetectedPlane in the Unity scene. ... " />
+            <marker date="1537824464000" expanded="true" signature="1124:8158" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="1246:1943" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="2486:2560" ph="/// The Unity Awake() method. ... " />
+            <marker date="1537824464000" expanded="true" signature="2588:2733" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="2743:2818" ph="/// The Unity Update() method. ... " />
+            <marker date="1537824464000" expanded="true" signature="2847:3366" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="2898:2950" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="3007:3096" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="3174:3276" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="3376:3550" ph="/// Initializes the DetectedPlaneVisualizer with a DetectedPlane. ... " />
+            <marker date="1537824464000" expanded="true" signature="3602:3885" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="3895:4007" ph="/// Update mesh with a list of Vector3 and plane's center position. ... " />
+            <marker date="1537824464000" expanded="true" signature="4050:7695" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="4210:4262" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="4679:5309" ph="/* The following code converts a polygon to a mesh with two polygons, inner ... */" />
+            <marker date="1537824464000" expanded="true" signature="5458:5533" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="5843:6232" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="6479:6682" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="6696:6817" ph="/* Generate triangle (0, 1, 4), (4, 1, 5), (5, 1, 2), (5, 2, 6), (6, 2, 3), (6, 3, 7) ... */" />
+            <marker date="1537824464000" expanded="true" signature="6873:7481" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="7791:8152" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="7854:7912" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="7967:8116" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="8032:8102" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/Outline.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="78" lean-forward="false" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+          <folding>
+            <marker date="1502623798000" expanded="true" signature="0:1236" ph="/* Copyright (c) 2015 José Guerreiro. All rights reserved. ... */" />
+            <marker date="1502623798000" expanded="false" signature="1244:1309" ph="..." />
+            <marker date="1502623798000" expanded="true" signature="1438:2424" ph="{...}" />
+            <marker date="1502623798000" expanded="true" signature="1723:1792" ph="{...}" />
+            <marker date="1502623798000" expanded="true" signature="1817:2103" ph="{...}" />
+            <marker date="1502623798000" expanded="true" signature="2024:2093" ph="{...}" />
+            <marker date="1502623798000" expanded="true" signature="2129:2418" ph="{...}" />
+            <marker date="1502623798000" expanded="true" signature="2336:2408" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1539868812623" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1539868812623" expanded="true" signature="875:7763" ph="{...}" />
+            <marker date="1539868812623" expanded="false" signature="888:1140" ph="..." />
+            <marker date="1539868812623" expanded="true" signature="1153:1223" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1539868812623" expanded="true" signature="1274:7761" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="1289:1433" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1539868812623" expanded="true" signature="1484:1758" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1539868812623" expanded="true" signature="1811:1937" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1539868812623" expanded="true" signature="1994:2120" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1539868812623" expanded="true" signature="2184:2386" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1539868812623" expanded="true" signature="2473:2619" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1539868812623" expanded="true" signature="2672:2747" ph="/// The Unity Update() method. ... " />
+            <marker date="1539868812623" expanded="true" signature="2776:4831" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3063:3275" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3153:3261" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3544:3596" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3954:4821" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="4476:4600" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1539868812623" expanded="true" signature="4841:4933" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1539868812623" expanded="true" signature="4984:6207" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5103:5167" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5291:5440" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5457:5548" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5579:5631" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5809:5975" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6022:6197" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6217:6296" ph="/// Actually quit the application. ... " />
+            <marker date="1539868812623" expanded="true" signature="6327:6379" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6389:6547" ph="/// Show an Android toast message. ... " />
+            <marker date="1539868812623" expanded="true" signature="6609:7319" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6865:7309" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="7053:7292" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="7343:7737" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1539868812623" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1539868812623" expanded="true" signature="875:7763" ph="{...}" />
+            <marker date="1539868812623" expanded="false" signature="888:1140" ph="..." />
+            <marker date="1539868812623" expanded="true" signature="1153:1223" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1539868812623" expanded="true" signature="1274:7761" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="1289:1433" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1539868812623" expanded="true" signature="1484:1758" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1539868812623" expanded="true" signature="1811:1937" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1539868812623" expanded="true" signature="1994:2120" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1539868812623" expanded="true" signature="2184:2386" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1539868812623" expanded="true" signature="2473:2619" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1539868812623" expanded="true" signature="2672:2747" ph="/// The Unity Update() method. ... " />
+            <marker date="1539868812623" expanded="true" signature="2776:4831" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3063:3275" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3153:3261" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3544:3596" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3954:4821" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="4476:4600" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1539868812623" expanded="true" signature="4841:4933" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1539868812623" expanded="true" signature="4984:6207" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5103:5167" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5291:5440" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5457:5548" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5579:5631" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5809:5975" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6022:6197" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6217:6296" ph="/// Actually quit the application. ... " />
+            <marker date="1539868812623" expanded="true" signature="6327:6379" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6389:6547" ph="/// Show an Android toast message. ... " />
+            <marker date="1539868812623" expanded="true" signature="6609:7319" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6865:7309" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="7053:7292" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="7343:7737" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ARProjects/AR Bigroom/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="155" column="26" lean-forward="true" selection-start-line="155" selection-start-column="26" selection-end-line="155" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OutlineEffect/Outline.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="78" lean-forward="false" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+          <folding>
+            <marker date="1502623798000" expanded="true" signature="0:1236" ph="/* Copyright (c) 2015 José Guerreiro. All rights reserved. ... */" />
+            <marker date="1502623798000" expanded="false" signature="1244:1309" ph="..." />
+            <marker date="1502623798000" expanded="true" signature="1438:2424" ph="{...}" />
+            <marker date="1502623798000" expanded="true" signature="1723:1792" ph="{...}" />
+            <marker date="1502623798000" expanded="true" signature="1817:2103" ph="{...}" />
+            <marker date="1502623798000" expanded="true" signature="2024:2093" ph="{...}" />
+            <marker date="1502623798000" expanded="true" signature="2129:2418" ph="{...}" />
+            <marker date="1502623798000" expanded="true" signature="2336:2408" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-604">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/Common/Scripts/DetectedPlaneVisualizer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1537824464000" expanded="true" signature="0:840" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1537824464000" expanded="true" signature="880:8160" ph="{...}" />
+            <marker date="1537824464000" expanded="false" signature="893:967" ph="..." />
+            <marker date="1537824464000" expanded="true" signature="973:1067" ph="/// Visualizes a single DetectedPlane in the Unity scene. ... " />
+            <marker date="1537824464000" expanded="true" signature="1124:8158" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="1246:1943" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="2486:2560" ph="/// The Unity Awake() method. ... " />
+            <marker date="1537824464000" expanded="true" signature="2588:2733" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="2743:2818" ph="/// The Unity Update() method. ... " />
+            <marker date="1537824464000" expanded="true" signature="2847:3366" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="2898:2950" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="3007:3096" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="3174:3276" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="3376:3550" ph="/// Initializes the DetectedPlaneVisualizer with a DetectedPlane. ... " />
+            <marker date="1537824464000" expanded="true" signature="3602:3885" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="3895:4007" ph="/// Update mesh with a list of Vector3 and plane's center position. ... " />
+            <marker date="1537824464000" expanded="true" signature="4050:7695" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="4210:4262" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="4679:5309" ph="/* The following code converts a polygon to a mesh with two polygons, inner ... */" />
+            <marker date="1537824464000" expanded="true" signature="5458:5533" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="5843:6232" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="6479:6682" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="6696:6817" ph="/* Generate triangle (0, 1, 4), (4, 1, 5), (5, 1, 2), (5, 2, 6), (6, 2, 3), (6, 3, 7) ... */" />
+            <marker date="1537824464000" expanded="true" signature="6873:7481" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="7791:8152" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="7854:7912" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="7967:8116" ph="{...}" />
+            <marker date="1537824464000" expanded="true" signature="8032:8102" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+          <folding>
+            <marker date="1539868812623" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1539868812623" expanded="true" signature="875:7763" ph="{...}" />
+            <marker date="1539868812623" expanded="false" signature="888:1140" ph="..." />
+            <marker date="1539868812623" expanded="true" signature="1153:1223" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1539868812623" expanded="true" signature="1274:7761" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="1289:1433" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1539868812623" expanded="true" signature="1484:1758" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1539868812623" expanded="true" signature="1811:1937" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1539868812623" expanded="true" signature="1994:2120" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1539868812623" expanded="true" signature="2184:2386" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1539868812623" expanded="true" signature="2473:2619" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1539868812623" expanded="true" signature="2672:2747" ph="/// The Unity Update() method. ... " />
+            <marker date="1539868812623" expanded="true" signature="2776:4831" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3063:3275" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3153:3261" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3544:3596" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="3954:4821" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="4476:4600" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1539868812623" expanded="true" signature="4841:4933" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1539868812623" expanded="true" signature="4984:6207" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5103:5167" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5291:5440" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5457:5548" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5579:5631" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="5809:5975" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6022:6197" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6217:6296" ph="/// Actually quit the application. ... " />
+            <marker date="1539868812623" expanded="true" signature="6327:6379" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6389:6547" ph="/// Show an Android toast message. ... " />
+            <marker date="1539868812623" expanded="true" signature="6609:7319" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="6865:7309" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="7053:7292" ph="{...}" />
+            <marker date="1539868812623" expanded="true" signature="7343:7737" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
