@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BallController.cs" t="Include" />
         <e p="GoogleARCore" t="Include">
           <e p="Editor" t="Include">
             <e p="ARCoreiOSDependencies.template" t="Include" />
@@ -49,6 +50,7 @@
               <e p="Scripts" t="Include">
                 <e p="HelloARController.cs" t="Include" />
                 <e p="MazeBallController.cs" t="Include" />
+                <e p="MazePoint.cs" t="Include" />
                 <e p="RosettaStoneController.cs" t="Include" />
                 <e p="Rotator.cs" t="Include" />
               </e>
