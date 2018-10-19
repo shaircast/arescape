@@ -11,6 +11,7 @@ public class MazeBallController : MonoBehaviour {
 
 	void Start() {
 		rb = GetComponent<Rigidbody>();
+		rb.useGravity = true;
 	}
 
 	void FixedUpdate() {
@@ -19,6 +20,7 @@ public class MazeBallController : MonoBehaviour {
 
 		Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 		rb.AddForce(movement * speed);
+		
 	}
 
 	void OnTriggerEnter(Collider other) {
