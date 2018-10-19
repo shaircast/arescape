@@ -18,12 +18,17 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
+using System.Net;
+using GoogleARCore.Examples.CloudAnchors;
+using TMPro;
+
 namespace GoogleARCore.Examples.HelloAR
 {
     using System.Collections.Generic;
     using GoogleARCore;
     using GoogleARCore.Examples.Common;
     using UnityEngine;
+    using UnityEngine.UI;
 
 #if UNITY_EDITOR
     // Set up touch input propagation while using Instant Preview in the editor.
@@ -71,6 +76,44 @@ namespace GoogleARCore.Examples.HelloAR
         /// </summary>
         private bool m_IsQuitting = false;
 
+
+        private int state = 0;
+
+        public Text textUI;
+        // state#Entered는 그 스테이트 처음 들어갔을 때 초기화시키고 재실행되지 않는 부분들을 위한 변수.
+        private bool state0Entered = true;
+        private bool state1Entered = true;
+        private bool state2Entered = true;
+        private bool state3Entered = true;
+        private bool state4Entered = true;
+
+        public GameObject startingMarkPrefab;
+        private GameObject startingMark;
+        private bool doesStartingMarkExist = false;
+        
+        public GameObject rosettaPrefab;
+        private GameObject rosetta;
+        private bool doesRosettaExist = false;
+
+        public GameObject geigerPrefab;
+        private GameObject geiger;
+        public List<GameObject> wordPiecesPrefab;
+        private List<GameObject> wordPieces;
+        public float pieceScatterDist;
+        
+        private Vector3 screenCenterCoord;
+        private Vector3 handholdRelativeCoord;
+
+        void Start()
+        {
+            // 직관적 사용을 위한 기기 중앙점 설정.
+            screenCenterCoord = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.2f, 0));
+            // 계수기 등등을 들고 있을 때 어디에 고정할 지.
+            handholdRelativeCoord = 0.2f * Vector3.down + 0.1f * Vector3.right + 0.2f * Vector3.forward;
+            // 변수초기화
+            wordPieces = new List<GameObject>();
+        }
+
         /// <summary>
         /// The Unity Update() method.
         /// </summary>
@@ -93,38 +136,141 @@ namespace GoogleARCore.Examples.HelloAR
             SearchingForPlaneUI.SetActive(showSearchingUI);
 
             // If the player has not touched the screen, we are done with this update.
-            Touch touch;
-            if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+//            Touch touch;
+//            if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+//            {
+//                return;
+//            }
+
+
+            if (state == 0) // 게임 처음 시작해서 아무것도 없는 상태
             {
-                return;
+                // 첫 실행 초기화 
+                if (state0Entered)
+                {
+                    state0Entered = false;
+                }
+                
+                // 감지된 평면 찾아서 스톤 위치 결정.
+                TrackableHit hit;
+                TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
+                                                  TrackableHitFlags.FeaturePointWithSurfaceNormal;
+                    // 중앙점에서 빔을 쏴서 감지된 평면에 맞은 곳 공중에 스톤 위치.
+                if (Frame.Raycast(screenCenterCoord.x, screenCenterCoord.y, raycastFilter, out hit))
+                {
+                    // 맨 처음에 스톤 없으면 새로 생성
+                    if (!doesStartingMarkExist)
+                    {
+                        startingMark = Instantiate(startingMarkPrefab);
+                        doesStartingMarkExist = true;
+                    }
+                    
+                    // 맞은 곳의 공중으로 좌표 계속 갱신
+                    startingMark.transform.position = hit.Pose.position;
+                                        
+                    // 이하는 터치 있으면 실행되는 부분
+                    Touch touch;
+                    if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+                    {
+                        return;
+                    }
+          
+                    // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
+                    // world evolves.
+                    Anchor anchor = hit.Trackable.CreateAnchor(hit.Pose);
+
+                    // Make Andy model a child of the anchor.
+                    startingMark.transform.parent = anchor.transform;
+                    // 평면 추적 멈추기 #TODO
+//                    ARCoreSessionConfig.
+                    
+
+                    state = 1;
+                }
             }
+            else if (state == 1)
+            {
+                // #TODO 대사 넣어야함
+            }
+            
+            else if (state == 111) // 뒤로 미뤄둠
+            {
+                // 첫 실행 초기화
+                if (state1Entered)
+                {
+                    // 가이거계수기 등장, 글자오브젝트 등장
+                    geiger = Instantiate(geigerPrefab);
+                    for (int i = 0; i < wordPieces.Count; i++)
+                    {
+                        // 비석 주변으로 원형으로 뿌리기
+                        float deg = 360f / wordPieces.Count * i * Mathf.PI / 180f;
+                        Vector3 piecePos = new Vector3(rosetta.transform.position.x + pieceScatterDist * Mathf.Cos(deg), 
+                            rosetta.transform.position.y, 
+                            rosetta.transform.position.z + pieceScatterDist * Mathf.Sin(deg));
+                        GameObject tempPiece = Instantiate(wordPiecesPrefab[i], piecePos, Quaternion.identity);
+                        wordPieces.Add(tempPiece);
+                    }
+                    
+                    geiger.transform.position = FirstPersonCamera.transform.position + handholdRelativeCoord;
+                    geiger.transform.rotation = Quaternion.Euler(Vector3.forward);
+                    geiger.transform.parent = FirstPersonCamera.transform;
+                    state1Entered = false;
+                }
+
+                
+                // 이하는 터치 있으면 실행되는 부분
+                Touch touch;
+                if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+                {
+                    return;
+                }
+
+            }
+            else if (state == 2)
+            {
+                
+            }
+            else if (state == 3)
+            {
+                
+            }
+            else if (state == 4)
+            {
+                
+            }
+            else if (state == 5)
+            {
+                
+            }
+            
+            
 
             // Raycast against the location the player touched to search for planes.
-            TrackableHit hit;
-            TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
-                TrackableHitFlags.FeaturePointWithSurfaceNormal;
-
-            if (Frame.Raycast(touch.position.x, touch.position.y, raycastFilter, out hit))
-            {
-                
-                // Choose the Andy model for the Trackable that got hit.
-                GameObject prefab = AndyPlanePrefab;
-              
-
-                // Instantiate Andy model at the hit pose.
-                var andyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
-
-                // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
-                andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
-
-                // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
-                // world evolves.
-                var anchor = hit.Trackable.CreateAnchor(hit.Pose);
-
-                // Make Andy model a child of the anchor.
-                andyObject.transform.parent = anchor.transform;
-                
-            }
+//            TrackableHit hit;
+//            TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
+//                TrackableHitFlags.FeaturePointWithSurfaceNormal;
+//
+//            if (Frame.Raycast(touch.position.x, touch.position.y, raycastFilter, out hit))
+//            {
+//                
+//                // Choose the Andy model for the Trackable that got hit.
+//                GameObject prefab = AndyPlanePrefab;
+//              
+//
+//                // Instantiate Andy model at the hit pose.
+//                var andyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+//
+//                // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
+//                andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
+//
+//                // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
+//                // world evolves.
+//                var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+//
+//                // Make Andy model a child of the anchor.
+//                andyObject.transform.parent = anchor.transform;
+//                
+//            }
         }
 
         /// <summary>
