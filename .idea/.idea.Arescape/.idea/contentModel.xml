@@ -50,6 +50,7 @@
                 <e p="HelloARController.cs" t="Include" />
                 <e p="MazeBallController.cs" t="Include" />
                 <e p="RosettaStoneController.cs" t="Include" />
+                <e p="Rotator.cs" t="Include" />
               </e>
             </e>
           </e>
