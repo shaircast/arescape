@@ -60,16 +60,6 @@ namespace GoogleARCore.Examples.HelloAR
         /// </summary>
         public GameObject SearchingForPlaneUI;
 
-
-        /* 비석 */
-        public GameObject RosettaStone;
-
-        /* 가이거 계수기 */
-        public GameObject GeigerCount;
-
-        /* 인더스 문자 */
-        public GameObject AncientScript;
-
         /// <summary>
         /// The rotation in degrees need to apply to model when the Andy model is placed.
         /// </summary>
@@ -250,6 +240,10 @@ namespace GoogleARCore.Examples.HelloAR
             }
             else if (state == 4)
             {
+                /* Pseudo Code*/
+                // 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면
+                // 고대문자가 우리가 찾는 고대문자인지 체크를 한다
+                // 만약 맞으면 고대문자를 활성화시킨다
                 if (AncientScript.transform.position - GeigerCount.transform.position < 0.1) {
                     if(IsCorrectAncientScript(AncientScript)) {
                         ActivateAncientScript();
@@ -262,15 +256,20 @@ namespace GoogleARCore.Examples.HelloAR
             }
         }
         
+        /* Pseudo Code*/
+        // 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환
         void IsCorrectAncientScript(GameObject AncientScript) {
             return AncientScript.isAnswer;
         }
         
-        
+        /* Pseudo Code*/
+        // 고대문자를 활성화시킨다
         void ActivateAncientScript() {
+            // 가이거 계수기 소리가 플레이 된다
             audio = GetComponent<AudioSource>();
             // Geiger Sound Effect 
             audio.PlayOneShot(GeigerSound);
+            // 고대문자가 빛난다.
             // Make Ancient Script Shining
             GetComponent(Halo).enabled = true;
         }
