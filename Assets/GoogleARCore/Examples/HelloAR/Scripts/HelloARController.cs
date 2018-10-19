@@ -198,29 +198,42 @@ namespace GoogleARCore.Examples.HelloAR
                 // #TODO 대사 넣어야함
                 textUI.text = "책상 위의 공간을 응시해주세요. 무엇인가가 있습니다.";
                 
-                Touch touch1;
-                if (Input.touchCount < 1 || (touch1 = Input.GetTouch(0)).phase != TouchPhase.Began)
+                Touch touch;
+                if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
                 {
-                    textUI.text = "위대한 지도자시여, 머나먼 시간을 건너 이 메세지가 그대에게 도달하였습니다. 당신은 전생에 고대 문명의 지도자였지만 당신을 시기한 적들로 인해 암살을 당하고 강력한 무기를 빼앗겼습니다. 그 무기로 인해 우리의 문명은 멸망했습니다.";
+                    return;
+                }
+                
+                textUI.text = "위대한 지도자시여, 머나먼 시간을 건너 이 메세지가 그대에게 도달하였습니다. 당신은 전생에 고대 문명의 지도자였지만 당신을 시기한 적들로 인해 암살을 당하고 강력한 무기를 빼앗겼습니다. 그 무기로 인해 우리의 문명은 멸망했습니다.";
+                
+                state = 2; 
+            }
+            else if (state == 2)
+            {
+
+                Touch touch;
+                if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+                {
+                    return;
                 }
 
-                Touch touch2;
-                if (Input.touchCount < 1 || (touch2 = Input.GetTouch(0)).phase != TouchPhase.Began)
-                {
-                    textUI.text = "이 메세지는 전생한 당신의 영혼에 반응하여 시공간을 이어주는 포탈을 만들어 줄 것입니다. 당신만이 재앙의 무기를 멈추는 단어를 알아낼 수 있습니다. 포탈을 통해 글자를 과거로 보내주십시오.";
-                }
-
+                textUI.text = "이 메세지는 전생한 당신의 영혼에 반응하여 시공간을 이어주는 포탈을 만들어 줄 것입니다. 당신만이 재앙의 무기를 멈추는 단어를 알아낼 수 있습니다. 포탈을 통해 글자를 과거로 보내주십시오.";
+               
                 //글자가 새겨진 커다란 벽이 나타난다.
+                state = 3;
 
-
-                Touch touch3;
-                if (Input.touchCount < 1 || (touch3 = Input.GetTouch(0)).phase != TouchPhase.Began)
+            }
+            else if (state == 3)
+            {
+                
+                Touch touch;
+                if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
                 {
-                    textUI.text = "이것이 우리 문명의 마지막 모습입니다.";
+                    return;
                 }
                 //벽이 열리고 그들의 도시가 보인다.
 
-                
+                textUI.text = "이것이 우리 문명의 마지막 모습입니다.";
             }
             
             else if (state == 111) // 뒤로 미뤄둠
