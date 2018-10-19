@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f18f2f12-dca3-4e14-ac65-f2d80f5696d5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/Sphere.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/Sphere.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/Rosetta.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/Rosetta.prefab" />
       <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/RosettaStoneController.cs" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/RosettaStoneController.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="HelloARController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="247" column="94" lean-forward="false" selection-start-line="247" selection-start-column="94" selection-end-line="247" selection-end-column="94" />
+            <state relative-caret-position="5803">
+              <caret line="253" column="20" lean-forward="false" selection-start-line="253" selection-start-column="20" selection-end-line="253" selection-end-column="20" />
               <folding>
                 <marker date="1539967100506" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
                 <marker date="1539967100506" expanded="true" signature="842:908" ph="..." />
@@ -89,13 +89,14 @@
       <file leaf-file-name="RosettaStoneController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/RosettaStoneController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
-                <marker date="1539959989270" expanded="false" signature="6:66" ph="..." />
-                <marker date="1539959989270" expanded="true" signature="120:625" ph="{...}" />
-                <marker date="1539959989270" expanded="true" signature="171:413" ph="{...}" />
-                <marker date="1539959989270" expanded="true" signature="430:622" ph="{...}" />
+                <marker date="1539968553631" expanded="false" signature="6:66" ph="..." />
+                <marker date="1539968553631" expanded="true" signature="120:749" ph="{...}" />
+                <marker date="1539968553631" expanded="true" signature="196:536" ph="{...}" />
+                <marker date="1539968553631" expanded="true" signature="200:443" ph="/* 현재 위치를 받아와서 비석의 위치를 설정한다. ... */" />
+                <marker date="1539968553631" expanded="true" signature="553:746" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -142,6 +143,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/RosettaStoneController.cs" />
       </list>
     </option>
   </component>
@@ -217,12 +219,12 @@
       <workItem from="1539858338414" duration="1460000" />
       <workItem from="1539862172418" duration="4424000" />
       <workItem from="1539945921329" duration="597000" />
-      <workItem from="1539947437277" duration="16218000" />
+      <workItem from="1539947437277" duration="17770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23302000" />
+    <option name="totallyTimeSpent" value="24854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -717,21 +719,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/RosettaStoneController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
-            <marker date="1539959989270" expanded="false" signature="6:66" ph="..." />
-            <marker date="1539959989270" expanded="true" signature="120:625" ph="{...}" />
-            <marker date="1539959989270" expanded="true" signature="171:413" ph="{...}" />
-            <marker date="1539959989270" expanded="true" signature="430:622" ph="{...}" />
+            <marker date="1539968553631" expanded="false" signature="6:66" ph="..." />
+            <marker date="1539968553631" expanded="true" signature="120:749" ph="{...}" />
+            <marker date="1539968553631" expanded="true" signature="196:536" ph="{...}" />
+            <marker date="1539968553631" expanded="true" signature="200:443" ph="/* 현재 위치를 받아와서 비석의 위치를 설정한다. ... */" />
+            <marker date="1539968553631" expanded="true" signature="553:746" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="247" column="94" lean-forward="false" selection-start-line="247" selection-start-column="94" selection-end-line="247" selection-end-column="94" />
+        <state relative-caret-position="5803">
+          <caret line="253" column="20" lean-forward="false" selection-start-line="253" selection-start-column="20" selection-end-line="253" selection-end-column="20" />
           <folding>
             <marker date="1539967100506" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
             <marker date="1539967100506" expanded="true" signature="842:908" ph="..." />
