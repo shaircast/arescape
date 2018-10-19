@@ -112,7 +112,6 @@ namespace GoogleARCore.Examples.HelloAR
         public float pieceScatterDist;
         
         private Vector3 screenCenterCoord;
-        private Vector3 handholdRelativeCoord;
         
         public AudioClip GeigerSound;
         AudioSource audio;
@@ -121,8 +120,6 @@ namespace GoogleARCore.Examples.HelloAR
         {
             // 직관적 사용을 위한 기기 중앙점 설정.
             screenCenterCoord = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.2f, 0));
-            // 계수기 등등을 들고 있을 때 어디에 고정할 지.
-            handholdRelativeCoord = 0.2f * Vector3.down + 0.1f * Vector3.right + 0.2f * Vector3.forward;
             // 변수초기화
             wordPieces = new List<GameObject>();
         }
@@ -184,10 +181,13 @@ namespace GoogleARCore.Examples.HelloAR
                                         
                     // 이하는 터치 있으면 실행되는 부분
                     Touch touch;
-                    if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+//                    if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+//                    {
+//                        return;
+//                    }
+                    if (!Input.GetMouseButtonDown(0))
                     {
-                        return;
-                    }
+                        return;}
           
                     // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
                     // world evolves.
@@ -199,7 +199,7 @@ namespace GoogleARCore.Examples.HelloAR
 //                    ARCoreSessionConfig.
                     
 
-                    state = 1;
+                    state = 111;
                 }
             }
             else if (state == 1)
@@ -214,6 +214,13 @@ namespace GoogleARCore.Examples.HelloAR
                 {
                     // 가이거계수기 등장, 글자오브젝트 등장
                     geiger = Instantiate(geigerPrefab);
+                    geiger.transform.position = FirstPersonCamera.transform.position + FirstPersonCamera.transform.forward * 0.05f
+                                                                                     + FirstPersonCamera.transform.right * 0.055f
+                                                                                     - FirstPersonCamera.transform.up * 0.02f;
+                    geiger.transform.rotation = Quaternion.Euler(Vector3.forward);
+                    geiger.transform.parent = FirstPersonCamera.transform;
+
+                    rosetta = Instantiate(rosettaPrefab, startingMark.transform.position + Vector3.up * 0.2f, Quaternion.identity);
                     for (int i = 0; i < wordPieces.Count; i++)
                     {
                         // 비석 주변으로 원형으로 뿌리기
@@ -225,9 +232,7 @@ namespace GoogleARCore.Examples.HelloAR
                         wordPieces.Add(tempPiece);
                     }
                     
-                    geiger.transform.position = FirstPersonCamera.transform.position + handholdRelativeCoord;
-                    geiger.transform.rotation = Quaternion.Euler(Vector3.forward);
-                    geiger.transform.parent = FirstPersonCamera.transform;
+                    
                     state1Entered = false;
                 }
 
@@ -250,11 +255,12 @@ namespace GoogleARCore.Examples.HelloAR
             }
             else if (state == 4)
             {
-                if (AncientScript.transform.position - GeigerCount.transform.position < 0.1) {
-                    if(IsCorrectAncientScript(AncientScript)) {
-                        ActivateAncientScript();
-                    }
-                }
+                //
+//                if (AncientScript.transform.position - GeigerCount.transform.position < 0.1) {
+//                    if(IsCorrectAncientScript(AncientScript)) {
+//                        ActivateAncientScript();
+//                    }
+//                }
             }
             else if (state == 5)
             {
@@ -262,18 +268,18 @@ namespace GoogleARCore.Examples.HelloAR
             }
         }
         
-        void IsCorrectAncientScript(GameObject AncientScript) {
-            return AncientScript.isAnswer;
-        }
-        
-        
-        void ActivateAncientScript() {
-            audio = GetComponent<AudioSource>();
-            // Geiger Sound Effect 
-            audio.PlayOneShot(GeigerSound);
-            // Make Ancient Script Shining
-            GetComponent(Halo).enabled = true;
-        }
+//        void IsCorrectAncientScript(GameObject AncientScript) {
+//            return AncientScript.isAnswer;
+//        }
+//        
+//        
+//        void ActivateAncientScript() {
+//            audio = GetComponent<AudioSource>();
+//            // Geiger Sound Effect 
+//            audio.PlayOneShot(GeigerSound);
+//            // Make Ancient Script Shining
+//            GetComponent(Halo).enabled = true;
+//        }
 
         /// <summary>
         /// Check and update the application lifecycle.
