@@ -18,7 +18,7 @@ public class RosettaStoneController : MonoBehaviour {
 
 	void Update() {
 		// 비석의 위치가 결정된 후, AnimationCurve인 myCurve에 따라 위 아래로 움직인다.
-		transform.position = new Vector3(curPos.x, curPos.y + 1f * myCurve.Evaluate(Time.time * 0.1f % myCurve.length) -1f, curPos.z);
+		transform.position = new Vector3(curPos.x, curPos.y + 1f * myCurve.Evaluate(Time.time * 0.1f % myCurve.length) -0f, curPos.z);
 	}
 
 }
