@@ -194,11 +194,38 @@ namespace GoogleARCore.Examples.HelloAR
             }
             else if (state == 1)
             {
+
                 // #TODO 대사 넣어야함
+                textUI.text = "책상 위의 공간을 응시해주세요. 무엇인가가 있습니다.";
+                
+                Touch touch1;
+                if (Input.touchCount < 1 || (touch1 = Input.GetTouch(0)).phase != TouchPhase.Began)
+                {
+                    textUI.text = "위대한 지도자시여, 머나먼 시간을 건너 이 메세지가 그대에게 도달하였습니다. 당신은 전생에 고대 문명의 지도자였지만 당신을 시기한 적들로 인해 암살을 당하고 강력한 무기를 빼앗겼습니다. 그 무기로 인해 우리의 문명은 멸망했습니다.";
+                }
+
+                Touch touch2;
+                if (Input.touchCount < 1 || (touch2 = Input.GetTouch(0)).phase != TouchPhase.Began)
+                {
+                    textUI.text = "이 메세지는 전생한 당신의 영혼에 반응하여 시공간을 이어주는 포탈을 만들어 줄 것입니다. 당신만이 재앙의 무기를 멈추는 단어를 알아낼 수 있습니다. 포탈을 통해 글자를 과거로 보내주십시오.";
+                }
+
+                //글자가 새겨진 커다란 벽이 나타난다.
+
+
+                Touch touch3;
+                if (Input.touchCount < 1 || (touch3 = Input.GetTouch(0)).phase != TouchPhase.Began)
+                {
+                    textUI.text = "이것이 우리 문명의 마지막 모습입니다.";
+                }
+                //벽이 열리고 그들의 도시가 보인다.
+
+                
             }
             
             else if (state == 111) // 뒤로 미뤄둠
             {
+
                 // 첫 실행 초기화
                 if (state1Entered)
                 {
@@ -232,11 +259,21 @@ namespace GoogleARCore.Examples.HelloAR
             }
             else if (state == 2)
             {
+                Touch touch;
+                if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+                {
+                    textUI.text = "첫 번째 단어는 당신의 영혼과 특수한 파장을 공유합니다. 이 장비를 통해 찾아낼 수 있습니다.";
+                }
+                
                 
             }
             else if (state == 3)
             {
-                
+                Touch touch;
+                if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+                {
+                    textUI.text = "잘하셨습니다! 두 번째 단어는 우리 도시의 미로에 잠들어 있는 대지의 글자입니다. 미로를 풀어 단어를 찾아낼 수 있습니다.";
+                }
             }
             else if (state == 4)
             {
@@ -252,7 +289,23 @@ namespace GoogleARCore.Examples.HelloAR
             }
             else if (state == 5)
             {
-                
+                Touch touch;
+                if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+                {
+                    textUI.text = "위대한 지도자여! 당신은 두가지 단어를 알아냈습니다. 포탈을 통해 글자를 과거로 전송해 주십시오.";
+                }
+
+                // 전송 버튼을 누른다.
+            }
+            else if (state == 6)
+            {
+                Touch touch;
+                if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+                {
+                    textUI.text = "우리의 문명은 멸망을 면했습니다. 적들은 잠시 물러날 것입니다.. 하지만 언제든 그들의 위협이 있는 한 우리의 메세지는 세대와 문명을 넘어 당신에게 전달될 것입니다.";
+                }
+
+                // 강한 빛과 함께 포털과 사진이 사라진다...
             }
         }
         
