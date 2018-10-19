@@ -201,8 +201,9 @@ namespace GoogleARCore.Examples.HelloAR
                 Touch touch1;
                 if (Input.touchCount < 1 || (touch1 = Input.GetTouch(0)).phase != TouchPhase.Began)
                 {
-                    textUI.text = "위대한 지도자시여, 머나먼 시간을 건너 이 메세지가 그대에게 도달하였습니다. 당신은 전생에 고대 문명의 지도자였지만 당신을 시기한 적들로 인해 암살을 당하고 강력한 무기를 빼앗겼습니다. 그 무기로 인해 우리의 문명은 멸망했습니다.";
+                    return;
                 }
+                textUI.text = "위대한 지도자시여, 머나먼 시간을 건너 이 메세지가 그대에게 도달하였습니다. 당신은 전생에 고대 문명의 지도자였지만 당신을 시기한 적들로 인해 암살을 당하고 강력한 무기를 빼앗겼습니다. 그 무기로 인해 우리의 문명은 멸망했습니다.";
 
                 Touch touch2;
                 if (Input.touchCount < 1 || (touch2 = Input.GetTouch(0)).phase != TouchPhase.Began)
@@ -238,14 +239,15 @@ namespace GoogleARCore.Examples.HelloAR
                     geiger.transform.parent = FirstPersonCamera.transform;
 
                     rosetta = Instantiate(rosettaPrefab, startingMark.transform.position + Vector3.up * 0.2f, Quaternion.identity);
-                    for (int i = 0; i < wordPieces.Count; i++)
+                    for (int i = 0; i < wordPiecesPrefab.Count; i++)
                     {
                         // 비석 주변으로 원형으로 뿌리기
-                        float deg = 360f / wordPieces.Count * i * Mathf.PI / 180f;
+                        float deg = 360f / wordPiecesPrefab.Count * i * Mathf.PI / 180f;
                         Vector3 piecePos = new Vector3(rosetta.transform.position.x + pieceScatterDist * Mathf.Cos(deg), 
                             rosetta.transform.position.y, 
                             rosetta.transform.position.z + pieceScatterDist * Mathf.Sin(deg));
                         GameObject tempPiece = Instantiate(wordPiecesPrefab[i], piecePos, Quaternion.identity);
+                        tempPiece.transform.localScale = new Vector3(0.005f, 0.005f, 0.005f);
                         wordPieces.Add(tempPiece);
                     }
                     
@@ -404,17 +406,6 @@ namespace GoogleARCore.Examples.HelloAR
         }
         
     
-        
-//        public TrackableHit HitFromScreenCoord(float x, float y)
-//        {
-//            TrackableHit hit;
-//            TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
-//                                              TrackableHitFlags.FeaturePointWithSurfaceNormal;
-//            Frame.Raycast(x, y, raycastFilter, out hit);
-//
-//            return hit;
-//        }
-        
         
     }
 }

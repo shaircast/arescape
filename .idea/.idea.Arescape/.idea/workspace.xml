@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f18f2f12-dca3-4e14-ac65-f2d80f5696d5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/Sphere.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/Sphere.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity" />
       <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/MazeBallController.cs" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/MazeBallController.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,69 +19,68 @@
       <file leaf-file-name="HelloARController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1287">
-              <caret line="327" column="37" lean-forward="true" selection-start-line="327" selection-start-column="37" selection-end-line="327" selection-end-column="37" />
+            <state relative-caret-position="655">
+              <caret line="247" column="94" lean-forward="false" selection-start-line="247" selection-start-column="94" selection-end-line="247" selection-end-column="94" />
               <folding>
-                <marker date="1539963466940" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
-                <marker date="1539963466940" expanded="true" signature="842:908" ph="..." />
-                <marker date="1539963466940" expanded="true" signature="949:15510" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="962:1240" ph="..." />
-                <marker date="1539963466940" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
-                <marker date="1539963466940" expanded="true" signature="1374:15508" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
-                <marker date="1539963466940" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
-                <marker date="1539963466940" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
-                <marker date="1539963466940" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
-                <marker date="1539963466940" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
-                <marker date="1539963466940" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
-                <marker date="1539963466940" expanded="true" signature="3741:3963" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
-                <marker date="1539963466940" expanded="true" signature="4078:11961" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="4365:4577" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="4455:4563" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
-                <marker date="1539963466940" expanded="true" signature="4963:6922" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="5041:5120" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="5559:6908" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="5667:5837" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
-                <marker date="1539963466940" expanded="true" signature="6331:6386" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
-                <marker date="1539963466940" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
-                <marker date="1539963466940" expanded="true" signature="6955:8062" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="7213:7415" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="7546:7725" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="7897:7992" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="8120:10034" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="8198:9771" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="9058:9668" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="9955:10019" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="10067:10383" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="10209:10335" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="10416:10714" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="10558:10700" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="10747:11202" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="10811:11188" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
-                <marker date="1539963466940" expanded="true" signature="11235:11551" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="11377:11505" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="11584:11951" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="11726:11892" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="12004:12578" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
-                <marker date="1539963466940" expanded="true" signature="12588:12680" ph="/// Check and update the application lifecycle. ... " />
-                <marker date="1539963466940" expanded="true" signature="12731:13954" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="12850:12914" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="13038:13187" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="13204:13295" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="13326:13378" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="13556:13722" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="13769:13944" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="13964:14043" ph="/// Actually quit the application. ... " />
-                <marker date="1539963466940" expanded="true" signature="14074:14126" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="14136:14294" ph="/// Show an Android toast message. ... " />
-                <marker date="1539963466940" expanded="true" signature="14356:15066" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="14612:15056" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="14800:15039" ph="{...}" />
-                <marker date="1539963466940" expanded="true" signature="15090:15484" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+                <marker date="1539967100506" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+                <marker date="1539967100506" expanded="true" signature="842:908" ph="..." />
+                <marker date="1539967100506" expanded="true" signature="949:15227" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="962:1240" ph="..." />
+                <marker date="1539967100506" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
+                <marker date="1539967100506" expanded="true" signature="1374:15225" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+                <marker date="1539967100506" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+                <marker date="1539967100506" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+                <marker date="1539967100506" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+                <marker date="1539967100506" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+                <marker date="1539967100506" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+                <marker date="1539967100506" expanded="true" signature="3741:3963" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
+                <marker date="1539967100506" expanded="true" signature="4078:12091" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="4365:4577" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="4455:4563" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
+                <marker date="1539967100506" expanded="true" signature="4963:6922" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="5041:5120" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="5559:6908" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="5667:5837" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
+                <marker date="1539967100506" expanded="true" signature="6331:6386" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+                <marker date="1539967100506" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
+                <marker date="1539967100506" expanded="true" signature="6955:8086" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="7213:7277" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="7570:7749" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="7921:8016" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="8144:10164" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="8222:9901" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="9088:9798" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="10085:10149" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="10197:10513" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="10339:10465" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="10546:10844" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="10688:10830" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="10877:11332" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="10941:11318" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
+                <marker date="1539967100506" expanded="true" signature="11365:11681" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="11507:11635" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="11714:12081" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="11856:12022" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="12134:12708" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
+                <marker date="1539967100506" expanded="true" signature="12718:12810" ph="/// Check and update the application lifecycle. ... " />
+                <marker date="1539967100506" expanded="true" signature="12861:14084" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="12980:13044" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="13168:13317" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="13334:13425" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="13456:13508" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="13686:13852" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="13899:14074" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="14094:14173" ph="/// Actually quit the application. ... " />
+                <marker date="1539967100506" expanded="true" signature="14204:14256" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="14266:14424" ph="/// Show an Android toast message. ... " />
+                <marker date="1539967100506" expanded="true" signature="14486:15196" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="14742:15186" ph="{...}" />
+                <marker date="1539967100506" expanded="true" signature="14930:15169" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -217,12 +217,12 @@
       <workItem from="1539858338414" duration="1460000" />
       <workItem from="1539862172418" duration="4424000" />
       <workItem from="1539945921329" duration="597000" />
-      <workItem from="1539947437277" duration="14002000" />
+      <workItem from="1539947437277" duration="16218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21086000" />
+    <option name="totallyTimeSpent" value="23302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,66 +272,65 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1539963466940" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
-            <marker date="1539963466940" expanded="true" signature="842:908" ph="..." />
-            <marker date="1539963466940" expanded="true" signature="949:15510" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="962:1240" ph="..." />
-            <marker date="1539963466940" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
-            <marker date="1539963466940" expanded="true" signature="1374:15508" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
-            <marker date="1539963466940" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
-            <marker date="1539963466940" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
-            <marker date="1539963466940" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
-            <marker date="1539963466940" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
-            <marker date="1539963466940" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
-            <marker date="1539963466940" expanded="true" signature="3741:3963" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
-            <marker date="1539963466940" expanded="true" signature="4078:11961" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4365:4577" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4455:4563" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
-            <marker date="1539963466940" expanded="true" signature="4963:6922" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5041:5120" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5559:6908" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5667:5837" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
-            <marker date="1539963466940" expanded="true" signature="6331:6386" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
-            <marker date="1539963466940" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
-            <marker date="1539963466940" expanded="true" signature="6955:8062" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7213:7415" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7546:7725" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7897:7992" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="8120:10034" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="8198:9771" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="9058:9668" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="9955:10019" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10067:10383" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10209:10335" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10416:10714" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10558:10700" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10747:11202" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10811:11188" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
-            <marker date="1539963466940" expanded="true" signature="11235:11551" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11377:11505" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11584:11951" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11726:11892" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="12004:12578" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
-            <marker date="1539963466940" expanded="true" signature="12588:12680" ph="/// Check and update the application lifecycle. ... " />
-            <marker date="1539963466940" expanded="true" signature="12731:13954" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="12850:12914" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13038:13187" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13204:13295" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13326:13378" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13556:13722" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13769:13944" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13964:14043" ph="/// Actually quit the application. ... " />
-            <marker date="1539963466940" expanded="true" signature="14074:14126" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14136:14294" ph="/// Show an Android toast message. ... " />
-            <marker date="1539963466940" expanded="true" signature="14356:15066" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14612:15056" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14800:15039" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="15090:15484" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+            <marker date="1539967100506" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1539967100506" expanded="true" signature="842:908" ph="..." />
+            <marker date="1539967100506" expanded="true" signature="949:15227" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="962:1240" ph="..." />
+            <marker date="1539967100506" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1539967100506" expanded="true" signature="1374:15225" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1539967100506" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1539967100506" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1539967100506" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1539967100506" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1539967100506" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1539967100506" expanded="true" signature="3741:3963" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
+            <marker date="1539967100506" expanded="true" signature="4078:12091" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4365:4577" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4455:4563" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
+            <marker date="1539967100506" expanded="true" signature="4963:6922" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5041:5120" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5559:6908" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5667:5837" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
+            <marker date="1539967100506" expanded="true" signature="6331:6386" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1539967100506" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
+            <marker date="1539967100506" expanded="true" signature="6955:8086" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7213:7277" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7570:7749" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7921:8016" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="8144:10164" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="8222:9901" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="9088:9798" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10085:10149" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10197:10513" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10339:10465" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10546:10844" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10688:10830" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10877:11332" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10941:11318" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
+            <marker date="1539967100506" expanded="true" signature="11365:11681" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11507:11635" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11714:12081" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11856:12022" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="12134:12708" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
+            <marker date="1539967100506" expanded="true" signature="12718:12810" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1539967100506" expanded="true" signature="12861:14084" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="12980:13044" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13168:13317" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13334:13425" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13456:13508" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13686:13852" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13899:14074" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14094:14173" ph="/// Actually quit the application. ... " />
+            <marker date="1539967100506" expanded="true" signature="14204:14256" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14266:14424" ph="/// Show an Android toast message. ... " />
+            <marker date="1539967100506" expanded="true" signature="14486:15196" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14742:15186" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14930:15169" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -395,66 +394,65 @@
         <state relative-caret-position="5973">
           <caret line="188" column="34" lean-forward="true" selection-start-line="188" selection-start-column="34" selection-end-line="188" selection-end-column="34" />
           <folding>
-            <marker date="1539963466940" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
-            <marker date="1539963466940" expanded="true" signature="842:908" ph="..." />
-            <marker date="1539963466940" expanded="true" signature="949:15510" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="962:1240" ph="..." />
-            <marker date="1539963466940" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
-            <marker date="1539963466940" expanded="true" signature="1374:15508" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
-            <marker date="1539963466940" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
-            <marker date="1539963466940" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
-            <marker date="1539963466940" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
-            <marker date="1539963466940" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
-            <marker date="1539963466940" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
-            <marker date="1539963466940" expanded="true" signature="3741:3963" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
-            <marker date="1539963466940" expanded="true" signature="4078:11961" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4365:4577" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4455:4563" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
-            <marker date="1539963466940" expanded="true" signature="4963:6922" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5041:5120" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5559:6908" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5667:5837" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
-            <marker date="1539963466940" expanded="true" signature="6331:6386" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
-            <marker date="1539963466940" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
-            <marker date="1539963466940" expanded="true" signature="6955:8062" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7213:7415" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7546:7725" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7897:7992" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="8120:10034" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="8198:9771" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="9058:9668" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="9955:10019" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10067:10383" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10209:10335" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10416:10714" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10558:10700" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10747:11202" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10811:11188" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
-            <marker date="1539963466940" expanded="true" signature="11235:11551" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11377:11505" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11584:11951" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11726:11892" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="12004:12578" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
-            <marker date="1539963466940" expanded="true" signature="12588:12680" ph="/// Check and update the application lifecycle. ... " />
-            <marker date="1539963466940" expanded="true" signature="12731:13954" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="12850:12914" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13038:13187" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13204:13295" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13326:13378" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13556:13722" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13769:13944" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13964:14043" ph="/// Actually quit the application. ... " />
-            <marker date="1539963466940" expanded="true" signature="14074:14126" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14136:14294" ph="/// Show an Android toast message. ... " />
-            <marker date="1539963466940" expanded="true" signature="14356:15066" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14612:15056" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14800:15039" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="15090:15484" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+            <marker date="1539967100506" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1539967100506" expanded="true" signature="842:908" ph="..." />
+            <marker date="1539967100506" expanded="true" signature="949:15227" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="962:1240" ph="..." />
+            <marker date="1539967100506" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1539967100506" expanded="true" signature="1374:15225" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1539967100506" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1539967100506" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1539967100506" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1539967100506" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1539967100506" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1539967100506" expanded="true" signature="3741:3963" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
+            <marker date="1539967100506" expanded="true" signature="4078:12091" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4365:4577" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4455:4563" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
+            <marker date="1539967100506" expanded="true" signature="4963:6922" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5041:5120" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5559:6908" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5667:5837" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
+            <marker date="1539967100506" expanded="true" signature="6331:6386" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1539967100506" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
+            <marker date="1539967100506" expanded="true" signature="6955:8086" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7213:7277" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7570:7749" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7921:8016" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="8144:10164" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="8222:9901" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="9088:9798" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10085:10149" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10197:10513" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10339:10465" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10546:10844" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10688:10830" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10877:11332" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10941:11318" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
+            <marker date="1539967100506" expanded="true" signature="11365:11681" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11507:11635" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11714:12081" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11856:12022" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="12134:12708" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
+            <marker date="1539967100506" expanded="true" signature="12718:12810" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1539967100506" expanded="true" signature="12861:14084" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="12980:13044" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13168:13317" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13334:13425" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13456:13508" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13686:13852" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13899:14074" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14094:14173" ph="/// Actually quit the application. ... " />
+            <marker date="1539967100506" expanded="true" signature="14204:14256" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14266:14424" ph="/// Show an Android toast message. ... " />
+            <marker date="1539967100506" expanded="true" signature="14486:15196" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14742:15186" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14930:15169" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -518,66 +516,65 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1539963466940" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
-            <marker date="1539963466940" expanded="true" signature="842:908" ph="..." />
-            <marker date="1539963466940" expanded="true" signature="949:15510" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="962:1240" ph="..." />
-            <marker date="1539963466940" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
-            <marker date="1539963466940" expanded="true" signature="1374:15508" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
-            <marker date="1539963466940" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
-            <marker date="1539963466940" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
-            <marker date="1539963466940" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
-            <marker date="1539963466940" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
-            <marker date="1539963466940" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
-            <marker date="1539963466940" expanded="true" signature="3741:3963" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
-            <marker date="1539963466940" expanded="true" signature="4078:11961" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4365:4577" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4455:4563" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
-            <marker date="1539963466940" expanded="true" signature="4963:6922" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5041:5120" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5559:6908" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5667:5837" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
-            <marker date="1539963466940" expanded="true" signature="6331:6386" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
-            <marker date="1539963466940" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
-            <marker date="1539963466940" expanded="true" signature="6955:8062" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7213:7415" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7546:7725" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7897:7992" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="8120:10034" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="8198:9771" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="9058:9668" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="9955:10019" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10067:10383" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10209:10335" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10416:10714" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10558:10700" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10747:11202" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10811:11188" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
-            <marker date="1539963466940" expanded="true" signature="11235:11551" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11377:11505" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11584:11951" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11726:11892" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="12004:12578" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
-            <marker date="1539963466940" expanded="true" signature="12588:12680" ph="/// Check and update the application lifecycle. ... " />
-            <marker date="1539963466940" expanded="true" signature="12731:13954" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="12850:12914" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13038:13187" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13204:13295" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13326:13378" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13556:13722" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13769:13944" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13964:14043" ph="/// Actually quit the application. ... " />
-            <marker date="1539963466940" expanded="true" signature="14074:14126" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14136:14294" ph="/// Show an Android toast message. ... " />
-            <marker date="1539963466940" expanded="true" signature="14356:15066" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14612:15056" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14800:15039" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="15090:15484" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+            <marker date="1539967100506" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1539967100506" expanded="true" signature="842:908" ph="..." />
+            <marker date="1539967100506" expanded="true" signature="949:15227" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="962:1240" ph="..." />
+            <marker date="1539967100506" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1539967100506" expanded="true" signature="1374:15225" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1539967100506" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1539967100506" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1539967100506" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1539967100506" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1539967100506" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1539967100506" expanded="true" signature="3741:3963" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
+            <marker date="1539967100506" expanded="true" signature="4078:12091" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4365:4577" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4455:4563" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
+            <marker date="1539967100506" expanded="true" signature="4963:6922" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5041:5120" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5559:6908" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5667:5837" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
+            <marker date="1539967100506" expanded="true" signature="6331:6386" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1539967100506" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
+            <marker date="1539967100506" expanded="true" signature="6955:8086" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7213:7277" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7570:7749" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7921:8016" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="8144:10164" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="8222:9901" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="9088:9798" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10085:10149" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10197:10513" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10339:10465" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10546:10844" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10688:10830" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10877:11332" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10941:11318" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
+            <marker date="1539967100506" expanded="true" signature="11365:11681" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11507:11635" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11714:12081" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11856:12022" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="12134:12708" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
+            <marker date="1539967100506" expanded="true" signature="12718:12810" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1539967100506" expanded="true" signature="12861:14084" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="12980:13044" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13168:13317" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13334:13425" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13456:13508" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13686:13852" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13899:14074" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14094:14173" ph="/// Actually quit the application. ... " />
+            <marker date="1539967100506" expanded="true" signature="14204:14256" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14266:14424" ph="/// Show an Android toast message. ... " />
+            <marker date="1539967100506" expanded="true" signature="14486:15196" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14742:15186" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14930:15169" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -587,66 +584,65 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1539963466940" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
-            <marker date="1539963466940" expanded="true" signature="842:908" ph="..." />
-            <marker date="1539963466940" expanded="true" signature="949:15510" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="962:1240" ph="..." />
-            <marker date="1539963466940" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
-            <marker date="1539963466940" expanded="true" signature="1374:15508" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
-            <marker date="1539963466940" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
-            <marker date="1539963466940" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
-            <marker date="1539963466940" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
-            <marker date="1539963466940" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
-            <marker date="1539963466940" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
-            <marker date="1539963466940" expanded="true" signature="3741:3963" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
-            <marker date="1539963466940" expanded="true" signature="4078:11961" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4365:4577" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4455:4563" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
-            <marker date="1539963466940" expanded="true" signature="4963:6922" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5041:5120" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5559:6908" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5667:5837" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
-            <marker date="1539963466940" expanded="true" signature="6331:6386" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
-            <marker date="1539963466940" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
-            <marker date="1539963466940" expanded="true" signature="6955:8062" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7213:7415" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7546:7725" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7897:7992" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="8120:10034" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="8198:9771" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="9058:9668" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="9955:10019" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10067:10383" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10209:10335" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10416:10714" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10558:10700" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10747:11202" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10811:11188" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
-            <marker date="1539963466940" expanded="true" signature="11235:11551" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11377:11505" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11584:11951" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11726:11892" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="12004:12578" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
-            <marker date="1539963466940" expanded="true" signature="12588:12680" ph="/// Check and update the application lifecycle. ... " />
-            <marker date="1539963466940" expanded="true" signature="12731:13954" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="12850:12914" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13038:13187" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13204:13295" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13326:13378" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13556:13722" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13769:13944" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13964:14043" ph="/// Actually quit the application. ... " />
-            <marker date="1539963466940" expanded="true" signature="14074:14126" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14136:14294" ph="/// Show an Android toast message. ... " />
-            <marker date="1539963466940" expanded="true" signature="14356:15066" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14612:15056" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14800:15039" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="15090:15484" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+            <marker date="1539967100506" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1539967100506" expanded="true" signature="842:908" ph="..." />
+            <marker date="1539967100506" expanded="true" signature="949:15227" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="962:1240" ph="..." />
+            <marker date="1539967100506" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1539967100506" expanded="true" signature="1374:15225" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1539967100506" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1539967100506" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1539967100506" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1539967100506" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1539967100506" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1539967100506" expanded="true" signature="3741:3963" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
+            <marker date="1539967100506" expanded="true" signature="4078:12091" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4365:4577" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4455:4563" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
+            <marker date="1539967100506" expanded="true" signature="4963:6922" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5041:5120" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5559:6908" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5667:5837" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
+            <marker date="1539967100506" expanded="true" signature="6331:6386" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1539967100506" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
+            <marker date="1539967100506" expanded="true" signature="6955:8086" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7213:7277" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7570:7749" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7921:8016" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="8144:10164" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="8222:9901" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="9088:9798" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10085:10149" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10197:10513" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10339:10465" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10546:10844" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10688:10830" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10877:11332" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10941:11318" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
+            <marker date="1539967100506" expanded="true" signature="11365:11681" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11507:11635" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11714:12081" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11856:12022" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="12134:12708" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
+            <marker date="1539967100506" expanded="true" signature="12718:12810" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1539967100506" expanded="true" signature="12861:14084" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="12980:13044" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13168:13317" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13334:13425" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13456:13508" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13686:13852" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13899:14074" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14094:14173" ph="/// Actually quit the application. ... " />
+            <marker date="1539967100506" expanded="true" signature="14204:14256" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14266:14424" ph="/// Show an Android toast message. ... " />
+            <marker date="1539967100506" expanded="true" signature="14486:15196" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14742:15186" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14930:15169" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -734,69 +730,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="327" column="37" lean-forward="true" selection-start-line="327" selection-start-column="37" selection-end-line="327" selection-end-column="37" />
+        <state relative-caret-position="655">
+          <caret line="247" column="94" lean-forward="false" selection-start-line="247" selection-start-column="94" selection-end-line="247" selection-end-column="94" />
           <folding>
-            <marker date="1539963466940" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
-            <marker date="1539963466940" expanded="true" signature="842:908" ph="..." />
-            <marker date="1539963466940" expanded="true" signature="949:15510" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="962:1240" ph="..." />
-            <marker date="1539963466940" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
-            <marker date="1539963466940" expanded="true" signature="1374:15508" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
-            <marker date="1539963466940" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
-            <marker date="1539963466940" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
-            <marker date="1539963466940" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
-            <marker date="1539963466940" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
-            <marker date="1539963466940" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
-            <marker date="1539963466940" expanded="true" signature="3741:3963" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
-            <marker date="1539963466940" expanded="true" signature="4078:11961" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4365:4577" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4455:4563" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
-            <marker date="1539963466940" expanded="true" signature="4963:6922" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5041:5120" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5559:6908" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="5667:5837" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
-            <marker date="1539963466940" expanded="true" signature="6331:6386" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
-            <marker date="1539963466940" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
-            <marker date="1539963466940" expanded="true" signature="6955:8062" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7213:7415" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7546:7725" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="7897:7992" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="8120:10034" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="8198:9771" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="9058:9668" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="9955:10019" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10067:10383" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10209:10335" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10416:10714" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10558:10700" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10747:11202" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="10811:11188" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
-            <marker date="1539963466940" expanded="true" signature="11235:11551" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11377:11505" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11584:11951" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="11726:11892" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="12004:12578" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
-            <marker date="1539963466940" expanded="true" signature="12588:12680" ph="/// Check and update the application lifecycle. ... " />
-            <marker date="1539963466940" expanded="true" signature="12731:13954" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="12850:12914" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13038:13187" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13204:13295" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13326:13378" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13556:13722" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13769:13944" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="13964:14043" ph="/// Actually quit the application. ... " />
-            <marker date="1539963466940" expanded="true" signature="14074:14126" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14136:14294" ph="/// Show an Android toast message. ... " />
-            <marker date="1539963466940" expanded="true" signature="14356:15066" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14612:15056" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="14800:15039" ph="{...}" />
-            <marker date="1539963466940" expanded="true" signature="15090:15484" ph="/* public TrackableHit HitFromScreenCoord(float x, float y) ... */" />
+            <marker date="1539967100506" expanded="true" signature="0:834" ph="/* ----------------------------------------------------------------------- ... */" />
+            <marker date="1539967100506" expanded="true" signature="842:908" ph="..." />
+            <marker date="1539967100506" expanded="true" signature="949:15227" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="962:1240" ph="..." />
+            <marker date="1539967100506" expanded="true" signature="1253:1323" ph="/// Controls the HelloAR example. ... " />
+            <marker date="1539967100506" expanded="true" signature="1374:15225" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="1389:1533" ph="/// The first-person camera being used to render the passthrough camera image (i.e. AR background). ... " />
+            <marker date="1539967100506" expanded="true" signature="1584:1858" ph="/// A prefab for tracking and visualizing detected planes. ... " />
+            <marker date="1539967100506" expanded="true" signature="1911:2037" ph="/// A gameobject parenting UI for displaying the &quot;searching for planes&quot; snackbar. ... " />
+            <marker date="1539967100506" expanded="true" signature="2094:2220" ph="/// The rotation in degrees need to apply to model when the Andy model is placed. ... " />
+            <marker date="1539967100506" expanded="true" signature="2284:2486" ph="/// A list to hold all planes ARCore is tracking in the current frame. This object is used across ... " />
+            <marker date="1539967100506" expanded="true" signature="2573:2719" ph="/// True if the app is in the process of quitting due to an ARCore connection error, otherwise false. ... " />
+            <marker date="1539967100506" expanded="true" signature="3741:3963" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="3973:4048" ph="/// The Unity Update() method. ... " />
+            <marker date="1539967100506" expanded="true" signature="4078:12091" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4365:4577" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4455:4563" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="4652:4908" ph="/* If the player has not touched the screen, we are done with this update. ... */" />
+            <marker date="1539967100506" expanded="true" signature="4963:6922" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5041:5120" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5559:6908" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="5667:5837" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="6091:6277" ph="/* if (Input.touchCount &lt; 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began) ... */" />
+            <marker date="1539967100506" expanded="true" signature="6331:6386" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="6418:6546" ph="/* Create an anchor to allow ARCore to track the hitpoint as understanding of the physical ... */" />
+            <marker date="1539967100506" expanded="true" signature="6774:6835" ph="/* 평면 추적 멈추기 ##TODO ... */" />
+            <marker date="1539967100506" expanded="true" signature="6955:8086" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7213:7277" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7570:7749" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="7921:8016" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="8144:10164" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="8222:9901" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="9088:9798" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10085:10149" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10197:10513" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10339:10465" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10546:10844" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10688:10830" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10877:11332" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="10941:11318" ph="/* 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면 ... */" />
+            <marker date="1539967100506" expanded="true" signature="11365:11681" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11507:11635" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11714:12081" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="11856:12022" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="12134:12708" ph="/* 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환 ... */" />
+            <marker date="1539967100506" expanded="true" signature="12718:12810" ph="/// Check and update the application lifecycle. ... " />
+            <marker date="1539967100506" expanded="true" signature="12861:14084" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="12980:13044" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13168:13317" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13334:13425" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13456:13508" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13686:13852" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="13899:14074" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14094:14173" ph="/// Actually quit the application. ... " />
+            <marker date="1539967100506" expanded="true" signature="14204:14256" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14266:14424" ph="/// Show an Android toast message. ... " />
+            <marker date="1539967100506" expanded="true" signature="14486:15196" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14742:15186" ph="{...}" />
+            <marker date="1539967100506" expanded="true" signature="14930:15169" ph="{...}" />
           </folding>
         </state>
       </provider>
