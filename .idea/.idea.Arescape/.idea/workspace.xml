@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f18f2f12-dca3-4e14-ac65-f2d80f5696d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Arescape/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/black.mat" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/black.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/blue.mat" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/blue.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/brown.mat" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/brown.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/green.mat" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/green.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/mint.mat" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/mint.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/orange.mat" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/orange.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/red.mat" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/red.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/violet.mat" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/violet.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/yellow.mat" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Material/yellow.mat" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/Ball.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/Ball.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/Maze 1.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/Maze 1.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char0.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char0.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char1.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char1.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char2.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char2.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char3.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char3.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char4.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char4.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char5.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char5.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char6.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char6.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char7.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char7.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char8.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char8.prefab" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char9.prefab" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Prefabs/char9.prefab" />
       <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scenes/HelloAR.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/HelloARController.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/Rotator.cs" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/Examples/HelloAR/Scripts/Rotator.cs" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -308,12 +325,12 @@
       <workItem from="1539858338414" duration="1460000" />
       <workItem from="1539862172418" duration="4424000" />
       <workItem from="1539945921329" duration="597000" />
-      <workItem from="1539947437277" duration="29142000" />
+      <workItem from="1539947437277" duration="29737000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36226000" />
+    <option name="totallyTimeSpent" value="36821000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
