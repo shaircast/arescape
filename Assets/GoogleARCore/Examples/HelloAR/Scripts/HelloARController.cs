@@ -18,6 +18,9 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
+using System.Net;
+using TMPro;
+
 namespace GoogleARCore.Examples.HelloAR
 {
     using System.Collections.Generic;
@@ -71,6 +74,25 @@ namespace GoogleARCore.Examples.HelloAR
         /// </summary>
         private bool m_IsQuitting = false;
 
+
+        private int state = 0;
+        // state#Entered는 그 스테이트 처음 들어갔을 때 초기화시키고 재실행되지 않는 부분들을 위한 변수.
+        private bool state0Entered = true;
+        private bool doesRosettaExist = false;
+        private bool state1Entered = true;
+        private bool state2Entered = true;
+        private bool state3Entered = true;
+        private bool state4Entered = true;
+        public GameObject rosettaPrefab;
+        private GameObject rosetta;
+        private Vector3 screenCenter;
+
+        void Start()
+        {
+            // 직관적 사용을 위한 기기 중앙점 설정.
+            screenCenter = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.2f, 0));
+        }
+
         /// <summary>
         /// The Unity Update() method.
         /// </summary>
@@ -93,38 +115,107 @@ namespace GoogleARCore.Examples.HelloAR
             SearchingForPlaneUI.SetActive(showSearchingUI);
 
             // If the player has not touched the screen, we are done with this update.
-            Touch touch;
-            if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+//            Touch touch;
+//            if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+//            {
+//                return;
+//            }
+
+
+            if (state == 0) // 게임 처음 시작해서 아무것도 없는 상태
             {
-                return;
+                // 첫 실행 초기화 
+                if (state0Entered)
+                {
+                    state0Entered = false;
+                }
+                
+                // 감지된 평면 찾아서 스톤 위치 결정.
+                TrackableHit hit;
+                TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
+                                                  TrackableHitFlags.FeaturePointWithSurfaceNormal;
+                    // 중앙점에서 빔을 쏴서 감지된 평면에 맞은 곳 공중에 스톤 위치.
+                if (Frame.Raycast(screenCenter.x, screenCenter.y, raycastFilter, out hit))
+                {
+                    // 맨 처음에 스톤 없으면 새로 생성
+                    if (!doesRosettaExist)
+                    {
+                        rosetta = Instantiate(rosettaPrefab);
+                        doesRosettaExist = true;
+                    }
+                    
+                    // 맞은 곳의 공중으로 좌표 계속 갱신
+                    rosetta.transform.position = hit.Pose.position + Vector3.up * 0.3f;
+                                        
+                    // 이하는 터치 있으면 실행되는 부분
+                    Touch touch;
+                    if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+                    {
+                        return;
+                    }
+          
+                    // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
+                    // world evolves.
+                    Anchor anchor = hit.Trackable.CreateAnchor(hit.Pose);
+
+                    // Make Andy model a child of the anchor.
+                    rosetta.transform.parent = anchor.transform;
+                    // 평면 추적 멈추기 #TODO
+//                    ARCoreSessionConfig.
+                    
+
+                    state = 1;
+                }
             }
+            else if (state == 1)
+            {
+                
+            }
+            else if (state == 2)
+            {
+                
+            }
+            else if (state == 3)
+            {
+                
+            }
+            else if (state == 4)
+            {
+                
+            }
+            else if (state == 5)
+            {
+                
+            }
+            
+            
 
             // Raycast against the location the player touched to search for planes.
-            TrackableHit hit;
-            TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
-                TrackableHitFlags.FeaturePointWithSurfaceNormal;
-
-            if (Frame.Raycast(touch.position.x, touch.position.y, raycastFilter, out hit))
-            {
-                
-                // Choose the Andy model for the Trackable that got hit.
-                GameObject prefab = AndyPlanePrefab;
-              
-
-                // Instantiate Andy model at the hit pose.
-                var andyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
-
-                // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
-                andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
-
-                // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
-                // world evolves.
-                var anchor = hit.Trackable.CreateAnchor(hit.Pose);
-
-                // Make Andy model a child of the anchor.
-                andyObject.transform.parent = anchor.transform;
-                
-            }
+//            TrackableHit hit;
+//            TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
+//                TrackableHitFlags.FeaturePointWithSurfaceNormal;
+//
+//            if (Frame.Raycast(touch.position.x, touch.position.y, raycastFilter, out hit))
+//            {
+//                
+//                // Choose the Andy model for the Trackable that got hit.
+//                GameObject prefab = AndyPlanePrefab;
+//              
+//
+//                // Instantiate Andy model at the hit pose.
+//                var andyObject = Instantiate(prefab, hit.Pose.position, hit.Pose.rotation);
+//
+//                // Compensate for the hitPose rotation facing away from the raycast (i.e. camera).
+//                andyObject.transform.Rotate(0, k_ModelRotation, 0, Space.Self);
+//
+//                // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
+//                // world evolves.
+//                var anchor = hit.Trackable.CreateAnchor(hit.Pose);
+//
+//                // Make Andy model a child of the anchor.
+//                andyObject.transform.parent = anchor.transform;
+//                
+//            }
         }
 
         /// <summary>
