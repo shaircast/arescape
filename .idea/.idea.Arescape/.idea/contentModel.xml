@@ -48,6 +48,8 @@
             <e p="HelloAR" t="Include">
               <e p="Scripts" t="Include">
                 <e p="HelloARController.cs" t="Include" />
+                <e p="MazeBallController.cs" t="Include" />
+                <e p="RosettaStoneController.cs" t="Include" />
               </e>
             </e>
           </e>

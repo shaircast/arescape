@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33114695686114794}
   - component: {fileID: 23947990390898556}
   - component: {fileID: 65566222963860096}
+  - component: {fileID: 114167865665712958}
   m_Layer: 0
   m_Name: Rosetta
   m_TagString: Untagged
@@ -96,3 +97,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114167865665712958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1622060043401078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c61caef480227408acf57da83a9008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.48750305
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.995819
+      value: 0.4937493
+      inSlope: 2.3867292
+      outSlope: 2.3867292
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.09015111
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

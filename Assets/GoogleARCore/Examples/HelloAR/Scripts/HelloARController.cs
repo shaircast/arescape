@@ -102,7 +102,6 @@ namespace GoogleARCore.Examples.HelloAR
         public float pieceScatterDist;
         
         private Vector3 screenCenterCoord;
-        private Vector3 handholdRelativeCoord;
         
         public AudioClip GeigerSound;
         AudioSource audio;
@@ -111,8 +110,6 @@ namespace GoogleARCore.Examples.HelloAR
         {
             // 직관적 사용을 위한 기기 중앙점 설정.
             screenCenterCoord = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.2f, 0));
-            // 계수기 등등을 들고 있을 때 어디에 고정할 지.
-            handholdRelativeCoord = 0.2f * Vector3.down + 0.1f * Vector3.right + 0.2f * Vector3.forward;
             // 변수초기화
             wordPieces = new List<GameObject>();
         }
@@ -174,10 +171,13 @@ namespace GoogleARCore.Examples.HelloAR
                                         
                     // 이하는 터치 있으면 실행되는 부분
                     Touch touch;
-                    if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+//                    if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
+//                    {
+//                        return;
+//                    }
+                    if (!Input.GetMouseButtonDown(0))
                     {
-                        return;
-                    }
+                        return;}
           
                     // Create an anchor to allow ARCore to track the hitpoint as understanding of the physical
                     // world evolves.
@@ -189,7 +189,7 @@ namespace GoogleARCore.Examples.HelloAR
 //                    ARCoreSessionConfig.
                     
 
-                    state = 1;
+                    state = 111;
                 }
             }
             else if (state == 1)
@@ -244,20 +244,26 @@ namespace GoogleARCore.Examples.HelloAR
                 {
                     // 가이거계수기 등장, 글자오브젝트 등장
                     geiger = Instantiate(geigerPrefab);
-                    for (int i = 0; i < wordPieces.Count; i++)
+                    geiger.transform.position = FirstPersonCamera.transform.position + FirstPersonCamera.transform.forward * 0.05f
+                                                                                     + FirstPersonCamera.transform.right * 0.055f
+                                                                                     - FirstPersonCamera.transform.up * 0.02f;
+                    geiger.transform.rotation = Quaternion.Euler(Vector3.forward);
+                    geiger.transform.parent = FirstPersonCamera.transform;
+
+                    rosetta = Instantiate(rosettaPrefab, startingMark.transform.position + Vector3.up * 0.2f, Quaternion.identity);
+                    for (int i = 0; i < wordPiecesPrefab.Count; i++)
                     {
                         // 비석 주변으로 원형으로 뿌리기
-                        float deg = 360f / wordPieces.Count * i * Mathf.PI / 180f;
+                        float deg = 360f / wordPiecesPrefab.Count * i * Mathf.PI / 180f;
                         Vector3 piecePos = new Vector3(rosetta.transform.position.x + pieceScatterDist * Mathf.Cos(deg), 
                             rosetta.transform.position.y, 
                             rosetta.transform.position.z + pieceScatterDist * Mathf.Sin(deg));
                         GameObject tempPiece = Instantiate(wordPiecesPrefab[i], piecePos, Quaternion.identity);
+                        tempPiece.transform.localScale = new Vector3(0.005f, 0.005f, 0.005f);
                         wordPieces.Add(tempPiece);
                     }
                     
-                    geiger.transform.position = FirstPersonCamera.transform.position + handholdRelativeCoord;
-                    geiger.transform.rotation = Quaternion.Euler(Vector3.forward);
-                    geiger.transform.parent = FirstPersonCamera.transform;
+                    
                     state1Entered = false;
                 }
 
@@ -294,11 +300,11 @@ namespace GoogleARCore.Examples.HelloAR
                 // 가이거 계수기가 고대 문자에 일정 거리 이하로 가까워지면
                 // 고대문자가 우리가 찾는 고대문자인지 체크를 한다
                 // 만약 맞으면 고대문자를 활성화시킨다
-                if (AncientScript.transform.position - GeigerCount.transform.position < 0.1) {
-                    if(IsCorrectAncientScript(AncientScript)) {
-                        ActivateAncientScript();
-                    }
-                }
+//                if (AncientScript.transform.position - GeigerCount.transform.position < 0.1) {
+//                    if(IsCorrectAncientScript(AncientScript)) {
+//                        ActivateAncientScript();
+//                    }
+//                }
             }
             else if (state == 5)
             {
@@ -324,21 +330,21 @@ namespace GoogleARCore.Examples.HelloAR
         
         /* Pseudo Code*/
         // 고대문자가 우리가 찾는 고대문자인지 확인하고 맞다면 true값을 반환
-        void IsCorrectAncientScript(GameObject AncientScript) {
-            return AncientScript.isAnswer;
-        }
-        
-        /* Pseudo Code*/
-        // 고대문자를 활성화시킨다
-        void ActivateAncientScript() {
-            // 가이거 계수기 소리가 플레이 된다
-            audio = GetComponent<AudioSource>();
-            // Geiger Sound Effect 
-            audio.PlayOneShot(GeigerSound);
-            // 고대문자가 빛난다.
-            // Make Ancient Script Shining
-            GetComponent(Halo).enabled = true;
-        }
+//        void IsCorrectAncientScript(GameObject AncientScript) {
+//            return AncientScript.isAnswer;
+//        }
+//        
+//        /* Pseudo Code*/
+//        // 고대문자를 활성화시킨다
+//        void ActivateAncientScript() {
+//            // 가이거 계수기 소리가 플레이 된다
+//            audio = GetComponent<AudioSource>();
+//            // Geiger Sound Effect 
+//            audio.PlayOneShot(GeigerSound);
+//            // 고대문자가 빛난다.
+//            // Make Ancient Script Shining
+//            GetComponent(Halo).enabled = true;
+//        }
 
         /// <summary>
         /// Check and update the application lifecycle.
@@ -412,17 +418,6 @@ namespace GoogleARCore.Examples.HelloAR
         }
         
     
-        
-//        public TrackableHit HitFromScreenCoord(float x, float y)
-//        {
-//            TrackableHit hit;
-//            TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
-//                                              TrackableHitFlags.FeaturePointWithSurfaceNormal;
-//            Frame.Raycast(x, y, raycastFilter, out hit);
-//
-//            return hit;
-//        }
-        
         
     }
 }
