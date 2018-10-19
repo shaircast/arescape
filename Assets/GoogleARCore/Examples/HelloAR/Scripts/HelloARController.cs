@@ -55,6 +55,16 @@ namespace GoogleARCore.Examples.HelloAR
         /// </summary>
         public GameObject SearchingForPlaneUI;
 
+
+        /* 비석 */
+        public GameObject RosettaStone;
+
+        /* 가이거 계수기 */
+        public GameObject GeigerCount;
+
+        /* 인더스 문자 */
+        public GameObject AncientScript;
+
         /// <summary>
         /// The rotation in degrees need to apply to model when the Andy model is placed.
         /// </summary>
@@ -74,6 +84,7 @@ namespace GoogleARCore.Examples.HelloAR
         /// <summary>
         /// The Unity Update() method.
         /// </summary>
+
         public void Update()
         {
             _UpdateApplicationLifecycle();
@@ -125,6 +136,28 @@ namespace GoogleARCore.Examples.HelloAR
                 andyObject.transform.parent = anchor.transform;
                 
             }
+
+            if (AncientScript.transform.position - GeigerCount.transform.position < 0.1) {
+                if(IsCorrectAncientScript(AncientScript)) {
+                    ActivateAncientScript();
+                }
+            }
+            
+        }
+        
+        IsCorrectAncientScript(GameObject AncientScript) {
+            return AncientScript.isAnswer;
+        }
+        
+        public AudioClip GeigerSound;
+        AudioSource audio;
+        
+        ActivateAncientScript() {
+            audio = GetComponent<AudioSource>();
+            // Geiger Sound Effect 
+            audio.PlayOneShot(GeigerSound);
+            // Make Ancient Script Shining
+            GetComponent(Halo).enabled = true;
         }
 
         /// <summary>
