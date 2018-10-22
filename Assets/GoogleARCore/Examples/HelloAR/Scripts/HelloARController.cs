@@ -78,6 +78,7 @@ namespace GoogleARCore.Examples.HelloAR
 
 
         public int state = 0;
+//        public int hehe;
 
         public Text textUI;
         // state#Entered는 그 스테이트 처음 들어갔을 때 초기화시키고 재실행되지 않는 부분들을 위한 변수.
@@ -86,8 +87,17 @@ namespace GoogleARCore.Examples.HelloAR
         private bool state2Entered = true;
         private bool state3Entered = true;
         private bool state4Entered = true;
+        private bool state5Entered = true;
         private bool state6Entered = true;
+        
+        private bool state8Entered = true;
 
+        public GameObject effect;
+        public GameObject effect2;
+        public GameObject effect3;
+
+        public GameObject titlePrefab;
+        private GameObject title;
         public GameObject startingMarkPrefab;
         private GameObject startingMark;
         private bool doesStartingMarkExist = false;
@@ -126,7 +136,7 @@ namespace GoogleARCore.Examples.HelloAR
         void Start()
         {
             // 직관적 사용을 위한 기기 중앙점 설정.
-            screenCenterCoord = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.2f, 0));
+            screenCenterCoord = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.5f, 0));
             // 변수초기화
             wordPieces = new List<GameObject>();
         }
@@ -160,6 +170,8 @@ namespace GoogleARCore.Examples.HelloAR
 //                return;
 //            }
 
+            TrackableHit hit = new TrackableHit();
+
 
             if (state == 0) // 게임 처음 시작해서 아무것도 없는 상태
             {
@@ -170,7 +182,6 @@ namespace GoogleARCore.Examples.HelloAR
                 }
                 
                 // 감지된 평면 찾아서 스톤 위치 결정.
-                TrackableHit hit;
                 TrackableHitFlags raycastFilter = TrackableHitFlags.PlaneWithinPolygon |
                                                   TrackableHitFlags.FeaturePointWithSurfaceNormal;
                     // 중앙점에서 빔을 쏴서 감지된 평면에 맞은 곳 공중에 스톤 위치.
@@ -179,12 +190,12 @@ namespace GoogleARCore.Examples.HelloAR
                     // 맨 처음에 스톤 없으면 새로 생성
                     if (!doesStartingMarkExist)
                     {
-                        startingMark = Instantiate(startingMarkPrefab);
+                        title = Instantiate(titlePrefab);
                         doesStartingMarkExist = true;
                     }
                     
                     // 맞은 곳의 공중으로 좌표 계속 갱신
-                    startingMark.transform.position = hit.Pose.position;
+                    title.transform.position = hit.Pose.position;
                                         
                     // 이하는 터치 있으면 실행되는 부분
                     Touch touch;
@@ -201,7 +212,8 @@ namespace GoogleARCore.Examples.HelloAR
                     Anchor anchor = hit.Trackable.CreateAnchor(hit.Pose);
 
                     // Make Andy model a child of the anchor.
-                    startingMark.transform.parent = anchor.transform;
+                    title.transform.parent = anchor.transform;
+                    
                     // 평면 추적 멈추기 #TODO
 //                    ARCoreSessionConfig.
                     
@@ -211,9 +223,17 @@ namespace GoogleARCore.Examples.HelloAR
             }
             else if (state == 1)
             {
+                if (state1Entered)
+                {
+                    // #TODO 대사 넣어야함
+                    startingMark = Instantiate(startingMarkPrefab);
+                    startingMark.transform.position = title.transform.position;
+                    Destroy(title);
+                    state1Entered = false;
+                }
 
-                // #TODO 대사 넣어야함
-                textUI.text = "책상 위의 공간을 응시해주세요. 무엇인가가 있습니다.";
+                // Make Andy model a child of the anchor.
+                textUI.text = "공간을 응시해주세요. 무엇인가가 있습니다.";
                 
                 Touch touch;
 //                if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
@@ -257,9 +277,8 @@ namespace GoogleARCore.Examples.HelloAR
                 if (!Input.GetMouseButtonDown(0))
                 {
                     return;}
-                //벽이 열리고 그들의 도시가 보인다.
 
-                textUI.text = "이것이 우리 문명의 마지막 모습입니다.";
+                textUI.text = "단어는 두 가지 방법으로 찾아낼 수 있습니다.";
 
                 state = 4;
             }
@@ -283,17 +302,18 @@ namespace GoogleARCore.Examples.HelloAR
             {
 
                 // 첫 실행 초기화
-                if (state1Entered)
+                if (state5Entered)
                 {
                     // 가이거계수기 등장, 글자오브젝트 등장
                     geiger = Instantiate(geigerPrefab);
+                    geiger.transform.rotation = Quaternion.Euler(FirstPersonCamera.transform.forward);
                     geiger.transform.position = FirstPersonCamera.transform.position + FirstPersonCamera.transform.forward * 0.05f
                                                                                      + FirstPersonCamera.transform.right * 0.055f
                                                                                      - FirstPersonCamera.transform.up * 0.02f;
-                    geiger.transform.rotation = Quaternion.Euler(Vector3.forward);
+                    
                     geiger.transform.parent = FirstPersonCamera.transform;
 
-                    rosetta = Instantiate(rosettaPrefab, startingMark.transform.position + Vector3.up * 0.2f, Quaternion.identity);
+                    rosetta = Instantiate(rosettaPrefab, startingMark.transform.position + Vector3.up * 0.95f, Quaternion.identity);
 //                    maze = Instantiate(mazePrefab, startingMark.transform.position, Quaternion.identity);
 //                    MazePoint mp = maze.GetComponent<MazePoint>();
 //                    GameObject sp = mp.startingPoint;
@@ -309,11 +329,13 @@ namespace GoogleARCore.Examples.HelloAR
                         GameObject tempPiece = Instantiate(wordPiecesPrefab[i], piecePos, Random.rotation);
                         tempPiece.transform.localScale = new Vector3(0.005f, 0.005f, 0.005f);
                         wordPieces.Add(tempPiece);
+                        Instantiate(effect, piecePos, Quaternion.identity);
+                        Debug.Log(i);
                     }
                     
                     
                     
-                    state1Entered = false;
+                    state5Entered = false;
                 }
                 
                 Debug.Log(Vector3.Distance(FirstPersonCamera.transform.position, wordPieces[4].transform.position));
@@ -324,6 +346,7 @@ namespace GoogleARCore.Examples.HelloAR
                     geiger.SetActive(false);
                     for (int i = 0; i < wordPieces.Count; i++)
                     {
+                        Instantiate(effect, wordPieces[i].transform.position, Quaternion.identity);
                         wordPieces[i].SetActive(false);
                     }
                     textUI.text = "잘하셨습니다! 두 번째 단어는 우리 도시의 미로에 잠들어 있는 대지의 글자입니다. 미로를 풀어 단어를 찾아낼 수 있습니다. 화면을 터치하세요.";
@@ -336,7 +359,7 @@ namespace GoogleARCore.Examples.HelloAR
                 if (state6Entered)
                 {
                     maze = Instantiate(mazePrefab, startingMark.transform.position, Quaternion.identity);
-                    MazePoint mp = maze.GetComponent<MazePoint>();
+                    MazePoint mp = GameObject.FindGameObjectWithTag("maze").GetComponent<MazePoint>();
                     GameObject sp = mp.startingPoint;
                     ball = Instantiate(ballPrefab, sp.transform.position, Quaternion.identity);
 
@@ -365,7 +388,7 @@ namespace GoogleARCore.Examples.HelloAR
                 totem3btn.gameObject.SetActive(true);
 
                 Rigidbody brb = ball.GetComponent<Rigidbody>();
-                MazePoint mp = maze.GetComponent<MazePoint>();
+                MazePoint mp = GameObject.FindGameObjectWithTag("maze").GetComponent<MazePoint>();
                 
                 if (buttonPress == 0) //totem0
                 {
@@ -389,13 +412,26 @@ namespace GoogleARCore.Examples.HelloAR
             }
             else if (state == 8)
             {
+                if (state8Entered)
+                {
+                    textUI.gameObject.SetActive(true);
+                    totem0btn.gameObject.SetActive(false);
+                    totem1btn.gameObject.SetActive(false);
+                    totem2btn.gameObject.SetActive(false);
+                    totem3btn.gameObject.SetActive(false);
+
+                    Instantiate(effect2, maze.transform.position, Quaternion.identity);
+                    Instantiate(effect3, rosetta.transform.position, Quaternion.identity);
                 
-                textUI.gameObject.SetActive(true);
-                totem0btn.gameObject.SetActive(false);
-                totem1btn.gameObject.SetActive(false);
-                totem2btn.gameObject.SetActive(false);
-                totem3btn.gameObject.SetActive(false);
-                textUI.text = "위대한 지도자여! 당신은 두가지 단어를 알아냈습니다. 우리의 문명은 멸망을 면했습니다. 적들은 잠시 물러날 것입니다.. 하지만 언제든 그들의 위협이 있는 한 우리의 메세지는 세대와 문명을 넘어 당신에게 전달될 것입니다.";
+                    maze.SetActive(false);
+                    rosetta.SetActive(false);
+                
+                
+                    textUI.text = "위대한 지도자여! 당신은 두가지 단어를 알아냈습니다. 우리의 문명은 멸망을 면했습니다. 적들은 잠시 물러날 것입니다.. 하지만 언제든 그들의 위협이 있는 한 우리의 메세지는 세대와 문명을 넘어 당신에게 전달될 것입니다.";
+                    state8Entered = false;
+                }
+                
+                
                 Touch touch;
                 if (Input.touchCount < 1 || (touch = Input.GetTouch(0)).phase != TouchPhase.Began)
                 {

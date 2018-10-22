@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - end
+  - maze
+  - halo1
+  - halo2
   layers:
   - Default
   - TransparentFX

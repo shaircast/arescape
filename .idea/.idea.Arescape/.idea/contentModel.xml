@@ -214,6 +214,15 @@
             </e>
           </e>
         </e>
+        <e p="KY_effects" t="Include">
+          <e p="MagicEffectsPackFree" t="Include">
+            <e p="ReadMe.txt" t="Include" />
+          </e>
+          <e p="Script" t="Include">
+            <e p="ConGUI.cs" t="Include" />
+            <e p="Lighting.cs" t="Include" />
+          </e>
+        </e>
         <e p="OutlineEffect" t="Include">
           <e p="Demo" t="Include">
             <e p="MaterialSwitcher.cs" t="Include" />
@@ -238,6 +247,14 @@
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scene" t="Include">
+          <e p="TessellationShaders" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="BumpedSpecularDisplacement.shader" t="Include" />
+              <e p="BumpedSpecularSmooth.shader" t="Include" />
             </e>
           </e>
         </e>

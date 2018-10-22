@@ -33,7 +33,20 @@ namespace GoogleARCore.Examples.Common
 
         private readonly Color[] k_PlaneColors = new Color[]
         {
-            new Color(1.0f, 1.0f, 1.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
+            new Color(0.0f, 0.0f, 0.0f),
             new Color(0.956f, 0.262f, 0.211f),
             new Color(0.913f, 0.117f, 0.388f),
             new Color(0.611f, 0.152f, 0.654f),
